@@ -1,15 +1,26 @@
 import Head from 'next/head';
+import React, { useState } from 'react';
+import YoutubePlayer from '../components/YoutubePlayer';
+import LoadScreen from '../components/LoadScreen';
 
-export default function Home() {
+const Home = () => {
+	const [loadingPlayer, setLoadingPlayer] = useState(true);
+	const [showPlayer, setShowPlayer] = useState(false);
+
 	return (
 		<div>
 			<Head>
-				<div></div>
+				<title>📺 Bedroom Radio</title>
 			</Head>
 
-			<main></main>
+			<main>
+				{/* <LoadScreen showPlayer={showPlayer} setShowPlayer={setShowPlayer} loadingStatus={loadingPlayer} /> */}
+				<YoutubePlayer showPlayer={showPlayer} setLoadingStatus={setLoadingPlayer} />
+			</main>
 
 			<footer></footer>
 		</div>
 	);
-}
+};
+
+export default Home;
