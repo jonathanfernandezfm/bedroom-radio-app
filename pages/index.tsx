@@ -14,7 +14,7 @@ const Home = () => {
 			</Head>
 
 			<main>
-				{/* <LoadScreen showPlayer={showPlayer} setShowPlayer={setShowPlayer} loadingStatus={loadingPlayer} /> */}
+				<LoadScreen showPlayer={showPlayer} setShowPlayer={setShowPlayer} loadingStatus={loadingPlayer} />
 				<YoutubePlayer showPlayer={showPlayer} setLoadingStatus={setLoadingPlayer} />
 			</main>
 
