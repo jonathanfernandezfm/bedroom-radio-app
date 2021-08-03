@@ -78,6 +78,7 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({ setLoadingStatus, showPla
 		<div>
 			<PlayerControls onPlayPause={onPlayPause} onPrevVideo={onPrevVideo} onNextVideo={onNextVideo} />
 			<YouTube
+				videoId={''}
 				className={
 					'2xl:scale-100 xl:scale-105 lg:scale-150 md:scale-200 scale-400 relative block w-full h-[300%]'
 				}
