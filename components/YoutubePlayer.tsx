@@ -1,10 +1,13 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import YouTube, { Options } from 'react-youtube';
-import PlayerControls from './PlayerControls';
+import { Playlist } from '@models/Playlist';
+import MaskOverlay from '@components/MaskOverlay';
+import PlayerControls from '@components/PlayerControls';
 
 interface YoutubePlayerProps {
 	setLoadingStatus: Dispatch<SetStateAction<boolean>>;
 	showPlayer: boolean;
+	playlist: Playlist;
 }
 
 const opts: Options = {
@@ -24,8 +27,13 @@ const opts: Options = {
 	},
 };
 
-const YoutubePlayer: React.FC<YoutubePlayerProps> = ({ setLoadingStatus, showPlayer }: YoutubePlayerProps) => {
+const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
+	setLoadingStatus,
+	showPlayer,
+	playlist,
+}: YoutubePlayerProps) => {
 	const [player, setPlayer] = useState<any>(undefined);
+	const [playerState, setPlayerState] = useState(-1);
 
 	useEffect(() => {
 		if (showPlayer && player) player.playVideo();
@@ -39,8 +47,13 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({ setLoadingStatus, showPla
 		setPlayer(player);
 		setLoadingStatus(false);
 
+		var url = new URL(playlist.url_youtube);
+		const urlParams = new URLSearchParams(url.search);
+
+		console.log(playlist.url_youtube, urlParams);
+
 		player.loadPlaylist({
-			list: 'PLljYIhN5dniR8o1AOA-3sia5wl0UD0Vrr',
+			list: urlParams.get('list'),
 			listType: 'playlist',
 			index: 0,
 		});
@@ -64,6 +77,7 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({ setLoadingStatus, showPla
 
 	const onStateChange = (newState: any) => {
 		console.log(newState);
+		setPlayerState(player.getPlayerState());
 	};
 
 	const onNextVideo = () => {
@@ -74,16 +88,27 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({ setLoadingStatus, showPla
 		if (player) player.previousVideo();
 	};
 
+	const onVolumeChange = (value: string) => {
+		if (player) player.setVolume(value);
+	};
+
 	return (
 		<div>
-			<PlayerControls onPlayPause={onPlayPause} onPrevVideo={onPrevVideo} onNextVideo={onNextVideo} />
+			<MaskOverlay />
+			<PlayerControls
+				onPlayPause={onPlayPause}
+				onPrevVideo={onPrevVideo}
+				onNextVideo={onNextVideo}
+				onVolumeChange={onVolumeChange}
+				playerState={playerState}
+			/>
 			<YouTube
 				videoId={''}
 				className={
 					'2xl:scale-100 xl:scale-105 lg:scale-150 md:scale-200 scale-400 relative block w-full h-[300%]'
 				}
 				containerClassName={
-					'fixed top-0 left-0 right-0 bottom-0 pointer-events-none overflow-hidden opacity-1 flex items-center justify-center'
+					'fixed top-0 left-0 right-0 bottom-0 z-10 pointer-events-none overflow-hidden opacity-1 flex items-center justify-center'
 				}
 				opts={opts}
 				onReady={onReady}
@@ -91,7 +116,9 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({ setLoadingStatus, showPla
 				// onPlay={func}                     // defaults -> noop
 				// onPause={func}                    // defaults -> noop
 				// onEnd={func}                      // defaults -> noop
-				onError={(e) => {console.log(e)}}                    // defaults -> noop
+				onError={(e) => {
+					console.log(e);
+				}} // defaults -> noop
 				// onPlaybackRateChange={func}       // defaults -> noop
 				// onPlaybackQualityChange={func}    // defaults -> noop
 			/>

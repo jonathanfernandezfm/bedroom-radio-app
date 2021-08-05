@@ -34,8 +34,8 @@ const transitionZoom: any = {
 	default: { transition: 'all 1000ms ease-in-out' },
 	entering: { transform: 'scale(1)', opacity: 1 },
 	entered: { transform: 'scale(1)', opacity: 1 },
-	exiting: { transform: 'scale(20)', opacity: 0 },
-	exited: { transform: 'scale(20)', opacity: 0 },
+	exiting: { transform: 'scale(20, 26)', opacity: 0 },
+	exited: { transform: 'scale(20, 26)', opacity: 0 },
 };
 
 const transitionButtonBack: any = {
@@ -60,7 +60,7 @@ const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setS
 					<div className="relative" style={{ ...transitionZoom.default, ...transitionZoom[state] }}>
 						<button
 							onClick={() => {
-								setShowPlayer(true);
+								if (!loadingStatus) setShowPlayer(true);
 							}}
 							className={`relative z-10 px-8 py-3 text-xl bg-black border-2 border-white ${
 								loadingStatus ? 'border-gray-400 text-gray-400' : ''
