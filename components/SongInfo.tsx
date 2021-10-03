@@ -1,15 +1,22 @@
+import { Cancion } from '@models/Cancion';
 import React from 'react';
 
 interface SongInfoProps {
-	title: string;
-	artist: string;
+	song: Cancion;
 }
 
-const SongInfo = ({ title, artist }: SongInfoProps) => {
+const SongInfo = ({ song }: SongInfoProps) => {
+	console.log(song);
 	return (
-		<div className="fixed z-40 flex flex-col justify-center h-full gap-4 ml-10">
-			<div className="tracking-tighter text-white text-8xl font-krona">{title}</div>
-			<div className="text-3xl tracking-tight text-blue-400 font-krona">{artist}</div>
+		<div className="fixed z-30 flex flex-col justify-center h-full gap-4 mx-10">
+			<div className="tracking-tighter text-white text-8xl font-krona">{song.nombre}</div>
+			<div className="flex">
+				<div className="text-3xl tracking-tight text-blue-400 transition-transform font-krona hover:translate-x-2 hover:cursor-pointer">
+					{song.artistas.map((art) => {
+						return art.nombre;
+					})}
+				</div>
+			</div>
 		</div>
 	);
 };

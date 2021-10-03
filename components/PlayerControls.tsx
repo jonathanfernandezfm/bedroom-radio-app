@@ -19,7 +19,7 @@ const PlayerControls = ({
 	return (
 		<div className="fixed z-30 w-full text-white bottom-7">
 			<div className="flex items-center justify-center gap-10 ">
-				<button className="" onClick={onPrevVideo}>
+				<button className="hover:text-blue-400" onClick={onPrevVideo}>
 					PREV
 				</button>
 				<button onClick={onPlayPause} className="flex">
@@ -29,11 +29,11 @@ const PlayerControls = ({
 						<Image src="/play.svg" alt="play button" width="25" height="25" />
 					)}
 				</button>
-				<button className="" onClick={onNextVideo}>
+				<button className="hover:text-blue-400" onClick={onNextVideo}>
 					NEXT
 				</button>
 			</div>
-			<div className="flex items-center justify-center gap-3 mt-6 mr-2">
+			<div className="flex items-center justify-center gap-3 mt-4 mr-2">
 				<input
 					type="range"
 					min="0"

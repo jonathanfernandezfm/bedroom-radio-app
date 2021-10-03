@@ -1,31 +1,33 @@
 {
-  "name": "bedroom-radio-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "11.0.1",
-    "plyr-react": "^3.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-transition-group": "^4.4.2",
-    "react-youtube": "^7.13.1"
-  },
-  "devDependencies": {
-    "@types/react": "17.0.15",
-    "@types/react-transition-group": "^4.4.2",
-    "autoprefixer": "^10.3.1",
-    "eslint": "7.31.0",
-    "eslint-config-next": "11.0.1",
-    "install": "^0.13.0",
-    "npm": "^7.20.3",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.7",
-    "typescript": "4.3.5"
-  }
+	"name": "bedroom-radio-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "11.0.1",
+		"plyr-react": "^3.0.8",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-transition-group": "^4.4.2",
+		"react-typist": "^2.0.5",
+		"react-youtube": "^7.13.1"
+	},
+	"devDependencies": {
+		"@types/react": "17.0.15",
+		"@types/react-transition-group": "^4.4.2",
+		"@types/react-typist": "^2.0.2",
+		"autoprefixer": "^10.3.1",
+		"eslint": "7.31.0",
+		"eslint-config-next": "11.0.1",
+		"install": "^0.13.0",
+		"npm": "^7.20.3",
+		"postcss": "^8.3.6",
+		"tailwindcss": "^2.2.7",
+		"typescript": "4.3.5"
+	}
 }

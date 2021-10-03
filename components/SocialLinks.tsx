@@ -1,18 +1,28 @@
 import React from 'react';
 import Image from 'next/image';
+import { Cancion } from '@models/Cancion';
 
 interface SocialLinksProps {
-	link_youtube: string;
-	link_spotify: string;
+	song: Cancion;
 }
 
-export const SocialLinks = ({ link_youtube, link_spotify }: SocialLinksProps) => {
+export const SocialLinks = ({ song }: SocialLinksProps) => {
 	return (
 		<div className="fixed z-40 flex gap-6 bottom-6 right-6">
-			<a href={link_youtube} target="_blank" rel="noreferrer">
+			<a
+				href={song.url_youtube}
+				target="_blank"
+				rel="noreferrer"
+				className="transition-transform hover:-rotate-12 hover:scale-105"
+			>
 				<Image src="/youtube.svg" alt="youtube link button" width="30" height="30" />
 			</a>
-			<a href={link_spotify} target="_blank" rel="noreferrer">
+			<a
+				href={song.url_spotify}
+				target="_blank"
+				rel="noreferrer"
+				className="transition-transform hover:rotate-12 hover:scale-105"
+			>
 				<Image src="/spotify.svg" alt="spotify link button" width="30" height="30" />
 			</a>
 		</div>

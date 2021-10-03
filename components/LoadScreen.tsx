@@ -1,5 +1,6 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import { Transition } from 'react-transition-group';
+import Typist from 'react-typist';
 
 interface LoadScreenProps {
 	loadingStatus: boolean;
@@ -31,7 +32,7 @@ const transitionButton: any = {
 };
 
 const transitionZoom: any = {
-	default: { transition: 'all 1000ms ease-in-out' },
+	default: { transition: 'all 1000ms ease-in-out, opacity 500ms ease-in-out' },
 	entering: { transform: 'scale(1)', opacity: 1 },
 	entered: { transform: 'scale(1)', opacity: 1 },
 	exiting: { transform: 'scale(20, 26)', opacity: 0 },
@@ -40,10 +41,10 @@ const transitionZoom: any = {
 
 const transitionButtonBack: any = {
 	default: { transition: 'left 500ms ease-in-out, top 200ms ease-in-out' },
-	entering: { top: '-0.5rem', left: '-0.5rem' },
-	entered: { top: '-0.5rem', left: '-0.5rem' },
-	exiting: { top: '0rem', left: '0rem' },
-	exited: { top: '0rem', left: '0rem' },
+	entering: { top: '-0.5rem', left: '-0.5rem', pointerEvents: 'all' },
+	entered: { top: '-0.5rem', left: '-0.5rem', pointerEvents: 'all' },
+	exiting: { top: '0rem', left: '0rem', pointerEvents: 'none' },
+	exited: { top: '0rem', left: '0rem', pointerEvents: 'none' },
 };
 
 const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setShowPlayer }: LoadScreenProps) => {
@@ -62,24 +63,24 @@ const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setS
 							onClick={() => {
 								if (!loadingStatus) setShowPlayer(true);
 							}}
-							className={`relative z-10 px-8 py-3 text-xl bg-black border-2 border-white ${
-								loadingStatus ? 'border-gray-400 text-gray-400' : ''
-							}`}
-							style={{ ...transitionButton.default, ...transitionButton[state] }}
-						>
-							{loadingStatus ? 'Loading...' : 'Explorar'}
-						</button>
-						<div
-							className={`absolute z-0 px-8 py-3 text-xl text-transparent border-2 border-white -top-2 -left-2 ${
-								loadingStatus ? 'border-gray-400' : ''
-							}`}
+							className={`relative z-10 px-8 py-3 text-xl bg-black border-2 border-white`}
 							style={{
 								...transitionButtonBack.default,
 								...transitionButtonBack[state],
 							}}
 						>
-							{loadingStatus ? 'Loading...' : 'Explorar'}
-						</div>
+							<Typist
+								cursor={{
+									show: true,
+									blink: true,
+									element: '|',
+									hideWhenDone: true,
+									hideWhenDoneDelay: 0,
+								}}
+							>
+								Entra y descubre
+							</Typist>
+						</button>
 					</div>
 				</div>
 			)}

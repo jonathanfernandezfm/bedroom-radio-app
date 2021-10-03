@@ -1,4 +1,7 @@
+import { Cancion } from './Cancion';
+
 export type Playlist = {
+	canciones: Cancion[];
 	_id: string;
 	nombre: string;
 	url_youtube: string;
