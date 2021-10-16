@@ -7,10 +7,16 @@ interface SongInfoProps {
 
 const SongInfo = ({ song }: SongInfoProps) => {
 	return (
-		<div className="fixed z-30 flex flex-col justify-center h-full gap-4 mx-10">
-			<div className="tracking-tighter text-white text-8xl font-krona">{song.nombre}</div>
+		<div className="fixed z-30 flex flex-col justify-center h-full gap-4 mx-6 sm:mx-10">
+			<div
+				className={`${
+					song.nombre.split(' ').find((s) => s.length >= 8) ? 'text-4xl' : 'text-5xl'
+				} tracking-tighter text-white sm:text-8xl font-krona`}
+			>
+				{song.nombre}
+			</div>
 			<div className="flex">
-				<div className="text-3xl tracking-tight text-blue-400 uppercase font-krona">
+				<div className="text-2xl tracking-tight text-blue-400 uppercase sm:text-3xl font-krona">
 					{song.artistas.map((art, index) => {
 						return (
 							<>
