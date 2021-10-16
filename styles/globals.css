@@ -29,13 +29,13 @@ a {
 	box-sizing: border-box;
 }
 
-a.menu-link {
+.menu-link {
 	text-decoration: none;
 	display: inline-block;
 	position: relative;
 }
 
-a.menu-link:after {
+.menu-link:after {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
 	content: '';
@@ -48,7 +48,22 @@ a.menu-link:after {
 	width: 0;
 }
 
-a.menu-link:hover:after {
+.menu-link.blue:after {
+	background: rgba(96, 165, 250, var(--tw-text-opacity));
+}
+
+.menu-link:hover:after {
 	width: 100%;
 	left: 0;
+}
+
+.draw-selection {
+	stroke-dasharray: 233.009765625px;
+	stroke-dashoffset: 233.009765625px;
+	transition: stroke-dashoffset 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+
+.draw-selection:hover {
+	stroke-dashoffset: 0px;
+	cursor: pointer;
 }

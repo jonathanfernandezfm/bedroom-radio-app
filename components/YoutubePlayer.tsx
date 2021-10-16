@@ -81,7 +81,6 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 	};
 
 	const onStateChange = (newState: any) => {
-		console.log(newState);
 		setPlayerState(player.getPlayerState());
 	};
 

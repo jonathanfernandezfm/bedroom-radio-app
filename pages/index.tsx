@@ -8,10 +8,14 @@ import SongInfo from '@components/SongInfo';
 import { SocialLinks } from '@components/SocialLinks';
 import { Cancion } from '@models/Cancion';
 import TopMenu from '@components/TopMenu';
+import Logo2 from 'svg/logo2';
+import { shuffle } from 'utils/functions';
 
 interface HomeProps {
 	playlists: Playlist[];
 }
+
+var queue: number[] = [];
 
 const Home = ({ playlists }: HomeProps) => {
 	const [loadingPlayer, setLoadingPlayer] = useState(true);
@@ -20,7 +24,9 @@ const Home = ({ playlists }: HomeProps) => {
 	const [song, setSong] = useState<Cancion>(playlist?.canciones[0]);
 
 	useEffect(() => {
+		playlists[0].canciones = shuffle(playlists[0].canciones);
 		setPlaylist(playlists[0]);
+
 		setSong(playlists[0].canciones[0]);
 	}, [playlists]);
 
@@ -49,7 +55,10 @@ const Home = ({ playlists }: HomeProps) => {
 			<main>
 				<LoadScreen showPlayer={showPlayer} setShowPlayer={setShowPlayer} loadingStatus={loadingPlayer} />
 				<TopMenu />
-				<TitlePlaylist playlist={playlist} />
+				{/* <TitlePlaylist playlist={playlist} /> */}
+				<div className="fixed z-30 flex justify-center w-full mt-6 text-lg text-center text-white font-krona">
+					<Logo2 width={120} />
+				</div>
 				<SongInfo song={song} />
 				<SocialLinks song={song} />
 				<YoutubePlayer

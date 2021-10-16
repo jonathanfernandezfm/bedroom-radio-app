@@ -13,7 +13,7 @@ export const SocialLinks = ({ song }: SocialLinksProps) => {
 				href={song.url_youtube}
 				target="_blank"
 				rel="noreferrer"
-				className="transition-transform hover:-rotate-12 hover:scale-105"
+				className="flex transition-transform hover:-rotate-12 hover:scale-105"
 			>
 				<Image src="/youtube.svg" alt="youtube link button" width="30" height="30" />
 			</a>
@@ -21,10 +21,13 @@ export const SocialLinks = ({ song }: SocialLinksProps) => {
 				href={song.url_spotify}
 				target="_blank"
 				rel="noreferrer"
-				className="transition-transform hover:rotate-12 hover:scale-105"
+				className="flex transition-transform hover:rotate-12 hover:scale-105"
 			>
 				<Image src="/spotify.svg" alt="spotify link button" width="30" height="30" />
 			</a>
+			<button className="flex transition-transform hover:-rotate-90 hover:scale-105">
+				<Image src="/plus.svg" alt="spotify link button" width="30" height="30" />
+			</button>
 		</div>
 	);
 };
