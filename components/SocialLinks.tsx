@@ -31,9 +31,9 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 			>
 				<Image src="/spotify.svg" alt="spotify link button" width="30" height="30" />
 			</a>
-			<button className="flex transition-transform hover:-rotate-90 hover:scale-105">
+			{/* <button className="flex transition-transform hover:-rotate-90 hover:scale-105">
 				<PlusIcon width={30} height={30} color="white" />
-			</button>
+			</button> */}
 		</div>
 	);
 };

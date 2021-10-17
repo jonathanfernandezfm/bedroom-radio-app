@@ -106,20 +106,31 @@ const Home = ({ playlists }: HomeProps) => {
 							<div className="flex justify-around">
 								<div className="text-center">
 									<div>Created by:</div>
-									<div className="font-bold">Adrián Martin</div>
+									<div className="font-bold">Adrián Martín</div>
 									<div className="flex justify-between mt-2">
-										<a href="" className="text-blue-400 hover:scale-110">
+										<a href="https://www.instagram.com/_adrimartin/"
+											target="_blank"
+											className="text-blue-400 hover:scale-110"
+											rel="noreferrer"
+										>
 											<FaInstagram />
 										</a>
-										<a href="" className="text-blue-400 hover:scale-110">
+										<a href="https://twitter.com/_adrimartin"
+											target="_blank"
+											className="text-blue-400 hover:scale-110"
+											rel="noreferrer"
+										>
 											<FaTwitter />
 										</a>
-										<a href="" className="text-blue-400 hover:scale-110">
+										<a href="https://www.linkedin.com/in/adrian-martin-jaimez/"
+											target="_blank"
+											className="text-blue-400 hover:scale-110"
+											rel="noreferrer"
+										>
 											<FaLinkedin />
 										</a>
-										<a href="" className="text-blue-400 hover:scale-110">
-											<FaGithub />
-										</a>
+										{/* <a href="" className="text-blue-400 hover:scale-110"> 
+											<FaGithub />*/}
 									</div>
 								</div>
 								<div className="text-center">
