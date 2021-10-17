@@ -41,6 +41,7 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 }: YoutubePlayerProps) => {
 	const [player, setPlayer] = useState<any>(undefined);
 	const [playerState, setPlayerState] = useState(-1);
+	const [volume, setVolume] = useState('25');
 
 	useEffect(() => {
 		if (showPlayer && player) player.playVideo();
@@ -54,6 +55,34 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 			videoId: song?.id_youtube,
 		});
 	}, [player, song]);
+
+	useEffect(() => {
+		window.addEventListener('keyup', onKeyPress);
+
+		return () => {
+			window.removeEventListener('keyup', onKeyPress);
+		};
+	});
+
+	const onKeyPress = (e: any) => {
+		switch (e.code) {
+			case 'Space':
+				onPlayPause();
+				break;
+			case 'ArrowRight':
+				nextSong();
+				break;
+			case 'ArrowLeft':
+				prevSong();
+				break;
+			case 'ArrowUp':
+				onVolumeChange((player.getVolume() + 5).toString());
+				break;
+			case 'ArrowDown':
+				onVolumeChange((player.getVolume() - 5).toString());
+				break;
+		}
+	};
 
 	const onReady = (event: any) => {
 		const player = event.target;
@@ -85,17 +114,21 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 	};
 
 	const onVolumeChange = (value: string) => {
-		if (player) player.setVolume(value);
+		if (player) {
+			player.setVolume(value);
+			setVolume(value);
+		}
 	};
 
 	return (
-		<div>
+		<>
 			<MaskOverlay />
 			<PlayerControls
 				onPlayPause={onPlayPause}
 				onPrevVideo={prevSong}
 				onNextVideo={nextSong}
 				onVolumeChange={onVolumeChange}
+				volume={volume}
 				playerState={playerState}
 				showInterface={showInterface}
 			/>
@@ -109,17 +142,17 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 				}
 				opts={opts}
 				onReady={onReady}
-				onStateChange={onStateChange} // defaults -> noop              // defaults -> noop
-				// onPlay={func}                     // defaults -> noop
-				// onPause={func}                    // defaults -> noop
+				onStateChange={onStateChange}
 				onEnd={nextSong}
 				onError={(e) => {
 					console.log(e);
-				}} // defaults -> noop
+				}}
+				// onPlay={func}                     // defaults -> noop
+				// onPause={func}                    // defaults -> noop
 				// onPlaybackRateChange={func}       // defaults -> noop
 				// onPlaybackQualityChange={func}    // defaults -> noop
 			/>
-		</div>
+		</>
 	);
 };
 

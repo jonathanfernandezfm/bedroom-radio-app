@@ -1,7 +1,5 @@
-import React from 'react';
 import Image from 'next/image';
 import { Cancion } from '@models/Cancion';
-import { PlusIcon } from '@radix-ui/react-icons';
 
 interface SocialLinksProps {
 	song: Cancion;
@@ -21,7 +19,7 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 				rel="noreferrer"
 				className="flex transition-transform hover:-rotate-12 hover:scale-105"
 			>
-				<Image src="/youtube.svg" alt="youtube link button" width="30" height="30" />
+				<Image src="/youtube.svg" alt={`Youtube link a la canción ${song.nombre}`} width="30" height="30" />
 			</a>
 			<a
 				href={song.url_spotify}
@@ -29,7 +27,7 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 				rel="noreferrer"
 				className="flex transition-transform hover:rotate-12 hover:scale-105"
 			>
-				<Image src="/spotify.svg" alt="spotify link button" width="30" height="30" />
+				<Image src="/spotify.svg" alt={`Spotify link a la canción ${song.nombre}`} width="30" height="30" />
 			</a>
 			{/* <button className="flex transition-transform hover:-rotate-90 hover:scale-105">
 				<PlusIcon width={30} height={30} color="white" />

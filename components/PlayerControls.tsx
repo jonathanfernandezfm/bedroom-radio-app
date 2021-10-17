@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { PlayIcon, PauseIcon } from '@radix-ui/react-icons';
+import { IoPauseOutline, IoPlay } from 'react-icons/io5';
 
 interface PlayerControlsProps {
 	onPlayPause: () => void;
 	onPrevVideo: () => void;
 	onNextVideo: () => void;
 	onVolumeChange: (value: string) => void;
+	volume: string;
 	playerState: number;
 	showInterface: boolean;
 }
@@ -17,8 +17,8 @@ const PlayerControls = ({
 	onVolumeChange,
 	playerState,
 	showInterface,
+	volume,
 }: PlayerControlsProps) => {
-	const [volume, setVolume] = useState('25');
 	return (
 		<div
 			className={`fixed z-30 w-full mb-2 text-white sm:mb-0 sm:bottom-7 bottom-16 transition-opacity duration-1000 ${
@@ -30,9 +30,9 @@ const PlayerControls = ({
 					PREV
 				</button>
 				<button onClick={onPlayPause} className="flex">
-					{playerState === 2 && <PlayIcon width={30} height={30} fill="white" />}
-					{playerState === 1 && <PauseIcon width={30} height={30} fill="white" strokeWidth={4} />}
-					{playerState !== 1 && playerState !== 2 && <PauseIcon width={30} height={30} fill="white" />}
+					{playerState === 2 && <IoPlay size={30} fill="white" />}
+					{playerState === 1 && <IoPauseOutline size={30} fill="white" />}
+					{playerState !== 1 && playerState !== 2 && <IoPauseOutline size={30} fill="white" />}
 				</button>
 				<button className="hover:text-blue-400" onClick={onNextVideo}>
 					NEXT
@@ -46,7 +46,6 @@ const PlayerControls = ({
 					value={volume}
 					className="w-48 ml-2"
 					onChange={(e) => {
-						setVolume(e.target.value);
 						onVolumeChange(e.target.value);
 					}}
 					style={{

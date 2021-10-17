@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { HamburgerMenuIcon, Cross1Icon } from '@radix-ui/react-icons';
+import { useEffect, useMemo, useState } from 'react';
 import debounce from 'lodash.debounce';
+import { IoMenu, IoClose } from 'react-icons/io5';
 
 interface TopMenuProps {
 	toggleModalInfo: (value?: boolean) => void;
@@ -11,12 +11,13 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 	const [menuOpen, toggleMenuOpen] = useState(false);
 	const [isMobile, setIsMobile] = useState(false);
 
-	const debouncedChangeHandler = useMemo(() => debounce(handleWindowSizeChange, 300), []);
-
-	function handleWindowSizeChange() {
+	const handleWindowSizeChange = () => {
 		if (window.innerWidth < 640 && !isMobile) setIsMobile(true);
 		else setIsMobile(false);
-	}
+	};
+
+	// eslint-disable-next-line react-hooks/exhaustive-deps
+	const debouncedChangeHandler = useMemo(() => debounce(handleWindowSizeChange, 300), []);
 
 	useEffect(() => {
 		debouncedChangeHandler();
@@ -24,7 +25,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 		return () => {
 			window.removeEventListener('resize', debouncedChangeHandler);
 		};
-	}, []);
+	}, [debouncedChangeHandler]);
 
 	const toggleMenu = () => {
 		toggleMenuOpen(!menuOpen);
@@ -43,18 +44,12 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 					toggleMenu();
 				}}
 			>
-				<HamburgerMenuIcon
+				<IoMenu
 					color="white"
-					width={30}
-					height={30}
+					size={30}
 					className={`absolute ${menuOpen ? 'animate-fade-out' : 'animate-fade-in'}`}
 				/>
-				<Cross1Icon
-					color="white"
-					width={30}
-					height={30}
-					className={`${menuOpen ? 'animate-fade-in' : 'animate-fade-out'}`}
-				/>
+				<IoClose color="white" size={30} className={`${menuOpen ? 'animate-fade-in' : 'animate-fade-out'}`} />
 			</button>
 			{!isMobile || (isMobile && menuOpen) ? (
 				<ul className="fixed flex flex-col gap-4 mt-6 text-lg text-right text-white sm:top-0 sm:text-center top-16 right-6 sm:gap-8 sm:flex-row sm:right-10">
@@ -70,7 +65,11 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 						</button>
 					</li>
 					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
-						<a href="mailto:infobedroomradio@gmail.com" className="menu-link">
+						<a
+							href="mailto:infobedroomradio@gmail.com"
+							className="menu-link"
+							title="Escribe un email a bedroom radio"
+						>
 							Contacto
 						</a>
 					</li>

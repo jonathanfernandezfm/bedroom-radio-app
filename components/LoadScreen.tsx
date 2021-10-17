@@ -1,8 +1,6 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import { Transition } from 'react-transition-group';
 import Typist from 'react-typist';
-import SelectionDraw from 'svg/selection-draw';
-import Logo from '../svg/logo';
 import Logo2 from '../svg/logo2';
 
 interface LoadScreenProps {
@@ -34,7 +32,6 @@ const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setS
 				>
 					<div className="relative" style={{ ...transitionOpacity.default, ...transitionOpacity[state] }}>
 						<Logo2 />
-						{/* <SelectionDraw /> */}
 					</div>
 					<div className="relative" style={{ ...transitionOpacity.default, ...transitionOpacity[state] }}>
 						<button
