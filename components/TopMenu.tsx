@@ -70,7 +70,19 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 						</button>
 					</li>
 					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
-						<a className="menu-link">Contacto</a>
+						<a href="mailto:infobedroomradio@gmail.com" className="menu-link">
+							Contacto
+						</a>
+					</li>
+					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
+						<a
+							href="https://forms.gle/gTtC7dR8RkDtwYCc9"
+							target="_blank"
+							className="menu-link"
+							rel="noreferrer"
+						>
+							Únete
+						</a>
 					</li>
 				</ul>
 			) : null}

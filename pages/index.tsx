@@ -46,14 +46,12 @@ const Home = ({ playlists }: HomeProps) => {
 	const interfaceOnMouse = () => {
 		if (!timeoutMouse)
 			timeoutMouse = setTimeout(() => {
-				console.log('Showing interface');
 				toggleShowInterface(true);
 			}, 100);
 
 		if (timeout) clearTimeout(timeout);
 		timeout = setTimeout(() => {
 			timeoutMouse = undefined;
-			console.log('Hiding interface');
 			toggleShowInterface(false);
 		}, 5000);
 	};
@@ -89,11 +87,11 @@ const Home = ({ playlists }: HomeProps) => {
 				<LoadScreen showPlayer={showPlayer} setShowPlayer={setShowPlayer} loadingStatus={loadingPlayer} />
 				<div>
 					<Modal toggleModalInfo={toggleModalInfo} visible={modalVisible}>
-						<div className="flex justify-center m-auto">
+						<div className="flex justify-center m-auto my-4 sm:my-0">
 							<Logo2 width={180} />
 						</div>
-						<div className="mt-10">
-							<div className="">
+						<div className="mt-6 sm:mt-10">
+							<div className="text-justify">
 								<div>
 									<b>Bedroom Radio</b> existe para descubrir y amplificar la música de artistas
 									hispanohablantes en todo el mundo.
@@ -104,7 +102,7 @@ const Home = ({ playlists }: HomeProps) => {
 								</div>
 								<div className="mt-2">Somos un equipo que está aquí por amor a la música.</div>
 							</div>
-							<hr className="mx-4 my-6" />
+							<hr className="my-6 " />
 							<div className="flex justify-around">
 								<div className="text-center">
 									<div>Created by:</div>

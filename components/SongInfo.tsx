@@ -14,9 +14,7 @@ const SongInfo = ({ song, showInterface }: SongInfoProps) => {
 			}`}
 		>
 			<div
-				className={`${
-					song.nombre.split(' ').find((s) => s.length >= 8) ? 'text-4xl' : 'text-5xl'
-				} tracking-tighter text-white sm:text-8xl font-krona`}
+				className="text-5xl tracking-tighter text-white  sm:text-8xl font-krona"
 			>
 				{song.nombre}
 			</div>
