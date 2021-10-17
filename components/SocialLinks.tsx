@@ -5,11 +5,16 @@ import { PlusIcon } from '@radix-ui/react-icons';
 
 interface SocialLinksProps {
 	song: Cancion;
+	showInterface: boolean;
 }
 
-export const SocialLinks = ({ song }: SocialLinksProps) => {
+export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 	return (
-		<div className="fixed z-40 flex justify-center w-full gap-6 bottom-6 sm:right-6 sm:w-auto">
+		<div
+			className={`fixed z-40 flex justify-center w-full gap-6 bottom-6 sm:right-6 sm:w-auto transition-opacity duration-1000 ${
+				showInterface ? 'opacity-100' : 'opacity-0'
+			}`}
+		>
 			<a
 				href={song.url_youtube}
 				target="_blank"

@@ -7,6 +7,7 @@ interface PlayerControlsProps {
 	onNextVideo: () => void;
 	onVolumeChange: (value: string) => void;
 	playerState: number;
+	showInterface: boolean;
 }
 
 const PlayerControls = ({
@@ -15,10 +16,15 @@ const PlayerControls = ({
 	onPrevVideo,
 	onVolumeChange,
 	playerState,
+	showInterface,
 }: PlayerControlsProps) => {
-	const [volume, setVolume] = useState('50');
+	const [volume, setVolume] = useState('25');
 	return (
-		<div className="fixed z-30 w-full mb-2 text-white sm:mb-0 sm:bottom-7 bottom-16">
+		<div
+			className={`fixed z-30 w-full mb-2 text-white sm:mb-0 sm:bottom-7 bottom-16 transition-opacity duration-1000 ${
+				showInterface ? 'opacity-100' : 'opacity-0'
+			}`}
+		>
 			<div className="flex items-center justify-center gap-10 ">
 				<button className="hover:text-blue-400" onClick={onPrevVideo}>
 					PREV

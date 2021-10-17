@@ -4,9 +4,10 @@ import debounce from 'lodash.debounce';
 
 interface TopMenuProps {
 	toggleModalInfo: (value?: boolean) => void;
+	showInterface: boolean;
 }
 
-const TopMenu = ({ toggleModalInfo }: TopMenuProps) => {
+const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 	const [menuOpen, toggleMenuOpen] = useState(false);
 	const [isMobile, setIsMobile] = useState(false);
 
@@ -30,7 +31,11 @@ const TopMenu = ({ toggleModalInfo }: TopMenuProps) => {
 	};
 
 	return (
-		<div className="fixed z-40 top-8 right-6">
+		<div
+			className={`fixed z-40 top-8 right-6 transition-opacity duration-1000 ${
+				showInterface ? 'opacity-100' : 'opacity-0'
+			}`}
+		>
 			<button
 				className="sm:hidden"
 				onClick={() => {

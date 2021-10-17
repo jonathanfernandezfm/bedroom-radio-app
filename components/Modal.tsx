@@ -17,7 +17,7 @@ const Modal = ({ children, toggleModalInfo, visible }: ModalProps) => {
 					toggleModalInfo(false);
 				}}
 			></div>
-			<div className="absolute max-w-md p-12 px-12 mx-4 text-white transform bg-black sm:p-12 sm:px-20 sm:mx-0 pointer-events transfrom animate-modal">
+			<div className="absolute max-w-md p-12 px-12 mx-4 text-white transform bg-black sm:p-12 sm:px-14 sm:mx-0 pointer-events transfrom animate-modal">
 				{children}
 			</div>
 		</div>

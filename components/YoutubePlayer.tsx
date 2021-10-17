@@ -8,10 +8,10 @@ import { Cancion } from '@models/Cancion';
 interface YoutubePlayerProps {
 	setLoadingStatus: Dispatch<SetStateAction<boolean>>;
 	showPlayer: boolean;
-	playlist: Playlist;
 	song?: Cancion;
 	nextSong: () => void;
 	prevSong: () => void;
+	showInterface: boolean;
 }
 
 const opts: Options = {
@@ -34,10 +34,10 @@ const opts: Options = {
 const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 	setLoadingStatus,
 	showPlayer,
-	playlist,
 	song,
 	nextSong,
 	prevSong,
+	showInterface,
 }: YoutubePlayerProps) => {
 	const [player, setPlayer] = useState<any>(undefined);
 	const [playerState, setPlayerState] = useState(-1);
@@ -65,7 +65,7 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 			videoId: song?.id_youtube,
 		});
 
-		player.setVolume(50);
+		player.setVolume(25);
 
 		setTimeout(() => {
 			player.unMute();
@@ -97,6 +97,7 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 				onNextVideo={nextSong}
 				onVolumeChange={onVolumeChange}
 				playerState={playerState}
+				showInterface={showInterface}
 			/>
 			<YouTube
 				videoId={''}

@@ -3,11 +3,16 @@ import React from 'react';
 
 interface SongInfoProps {
 	song: Cancion;
+	showInterface: boolean;
 }
 
-const SongInfo = ({ song }: SongInfoProps) => {
+const SongInfo = ({ song, showInterface }: SongInfoProps) => {
 	return (
-		<div className="fixed z-30 flex flex-col justify-center h-full gap-4 mx-6 sm:mx-10">
+		<div
+			className={`fixed z-30 flex flex-col justify-center h-full gap-4 mx-6 sm:mx-10 transition-opacity duration-1000 ${
+				showInterface ? 'opacity-100' : 'opacity-0'
+			}`}
+		>
 			<div
 				className={`${
 					song.nombre.split(' ').find((s) => s.length >= 8) ? 'text-4xl' : 'text-5xl'
