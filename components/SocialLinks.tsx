@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Cancion } from '@models/Cancion';
+import { CgHeart } from 'react-icons/cg';
 
 interface SocialLinksProps {
 	song: Cancion;
@@ -13,6 +14,9 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 				showInterface ? 'opacity-100' : 'opacity-0'
 			}`}
 		>
+			{/* <button className="flex transition-transform hover:scale-110">
+				<CgHeart size={30} color="white" />
+			</button> */}
 			<a
 				href={song.url_youtube}
 				target="_blank"
