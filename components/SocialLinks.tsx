@@ -21,6 +21,7 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 				href={song.url_youtube}
 				target="_blank"
 				rel="noreferrer"
+				aria-label="Siguiente cancion"
 				className="flex transition-transform hover:-rotate-12 hover:scale-105"
 			>
 				<Image src="/youtube.svg" alt={`Youtube link a la canción ${song.nombre}`} width="30" height="30" />

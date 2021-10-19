@@ -43,6 +43,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 					toggleModalInfo(false);
 					toggleMenu();
 				}}
+				aria-label="Menu hamburguesa"
 			>
 				<IoMenu
 					color="white"
@@ -60,6 +61,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 								toggleModalInfo(true);
 								toggleMenu();
 							}}
+							aria-label="Sobre nosotros"
 						>
 							Sobre nosotros
 						</button>

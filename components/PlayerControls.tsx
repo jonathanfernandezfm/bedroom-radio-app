@@ -26,20 +26,24 @@ const PlayerControls = ({
 			}`}
 		>
 			<div className="flex items-center justify-center gap-10 ">
-				<button className="hover:text-blue-400" onClick={onPrevVideo}>
+				<button className="hover:text-blue-400" onClick={onPrevVideo} aria-label="Canción anterior">
 					PREV
 				</button>
-				<button onClick={onPlayPause} className="flex">
+				<button onClick={onPlayPause} className="flex" aria-label="Play pause">
 					{playerState === 2 && <IoPlay size={30} fill="white" />}
 					{playerState === 1 && <IoPauseOutline size={30} fill="white" />}
 					{playerState !== 1 && playerState !== 2 && <IoPauseOutline size={30} fill="white" />}
 				</button>
-				<button className="hover:text-blue-400" onClick={onNextVideo}>
+				<button className="hover:text-blue-400" onClick={onNextVideo} aria-label="Siguiente cancion">
 					NEXT
 				</button>
 			</div>
 			<div className="flex items-center justify-center gap-3 mt-4 mr-2">
+				<label htmlFor="volume-input" className="hidden">
+					Volume
+				</label>
 				<input
+					id="volume-input"
 					type="range"
 					min="0"
 					max="100"
