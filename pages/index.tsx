@@ -89,6 +89,11 @@ const Home = ({ playlists }: HomeProps) => {
 				<link rel="canonical" href="http://bedroomradio.es/" />
 				<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
+				{/* SERVICE WORKER */}
+				<link rel="manifest" href="/manifest.json" />
+				<link rel="apple-touch-icon" href="/icon.png"></link>
+				<meta name="theme-color" content="#111" />
+
 				{/* FACEBOOK TAGS */}
 				<meta property="og:type" content="web" />
 				<meta property="og:title" content="Bedroom Radio" />
