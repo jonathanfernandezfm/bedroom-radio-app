@@ -83,7 +83,7 @@ const Home = ({ playlists }: HomeProps) => {
 				<meta property="og:title" content="Bedroom Radio" key="title" />
 				<meta
 					name="description"
-					content="Bedroom Radio existe para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo. Nuestro objetivo es dar voz y un espacio seguro a todx artista emergente o con poca visibilidad."
+					content="Bedroom Radio es una plataforma de música para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo."
 				/>
 				<meta name="robots" content="index, follow" />
 				<link rel="canonical" href="http://bedroomradio.es/" />
@@ -99,9 +99,9 @@ const Home = ({ playlists }: HomeProps) => {
 				<meta property="og:title" content="Bedroom Radio" />
 				<meta
 					property="og:description"
-					content="Bedroom Radio existe para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo. Nuestro objetivo es dar voz y un espacio seguro a todx artista emergente o con poca visibilidad."
+					content="Bedroom Radio es una plataforma de música para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo."
 				/>
-				<meta property="og:image" content="LINK TO THE IMAGE FILE" />
+				<meta property="og:image" content="https://bedroomradio.es/bedroomradio.png" />
 				<meta property="og:url" content="http://bedroomradio.es/" />
 				<meta property="og:site_name" content="Bedroom Radio" />
 
@@ -109,9 +109,9 @@ const Home = ({ playlists }: HomeProps) => {
 				<meta name="twitter:title" content="Bedroom Radio" />
 				<meta
 					name="twitter:description"
-					content="Bedroom Radio existe para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo. Nuestro objetivo es dar voz y un espacio seguro a todx artista emergente o con poca visibilidad."
+					content="Bedroom Radio es una plataforma de música para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo."
 				/>
-				<meta name="twitter:image" content="LINK TO IMAGE" />
+				<meta name="twitter:image" content="https://bedroomradio.es/bedroomradio.png" />
 				<meta name="twitter:site" content="@BedPodcast_" />
 				<meta name="twitter:creator" content="@JonathanFdezM @_adrimartin"></meta>
 			</Head>

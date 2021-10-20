@@ -30,9 +30,16 @@ const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setS
 						...transitionOpacity[state],
 					}}
 				>
-					<div className="relative" style={{ ...transitionOpacity.default, ...transitionOpacity[state] }}>
+					<button
+						className="relative"
+						aria-label="Entra y descubre"
+						style={{ ...transitionOpacity.default, ...transitionOpacity[state] }}
+						onClick={() => {
+							if (!loadingStatus) setShowPlayer(true);
+						}}
+					>
 						<Logo2 />
-					</div>
+					</button>
 					<div className="relative" style={{ ...transitionOpacity.default, ...transitionOpacity[state] }}>
 						<button
 							aria-label="Entra y descubre"
