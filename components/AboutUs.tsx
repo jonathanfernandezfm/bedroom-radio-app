@@ -96,7 +96,7 @@ const AboutUs = () => {
 				<div className="justify-center w-full mt-8 text-xs">
 					<div className="flex justify-center mb-4">
 						<a
-							href="https://www.buymeacoffee.com/jonathanfm"
+							href="https://ko-fi.com/jonathanfm"
 							className="flex items-center gap-2 text-lg text-blue-400 transition hover:scale-105"
 							target="_blank"
 							rel="noreferrer"
