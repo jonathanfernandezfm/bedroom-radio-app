@@ -37,7 +37,7 @@ const Modal = ({ children, toggleModalInfo, visible }: ModalProps) => {
 				>
 					{/* BACKDROP */}
 					<div
-						className="absolute top-0 left-0 w-full h-screen bg-black opacity-0"
+						className={`absolute top-0 left-0 w-full h-screen bg-black opacity-0`}
 						onClick={() => {
 							toggleModalInfo(false);
 						}}

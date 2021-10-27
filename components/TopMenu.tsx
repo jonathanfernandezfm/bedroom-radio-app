@@ -82,7 +82,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 							className="menu-link"
 							rel="noreferrer"
 						>
-							Únete
+							Recomienda tu canción
 						</a>
 					</li>
 				</ul>

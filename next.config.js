@@ -12,4 +12,7 @@ module.exports = withPWA({
 		locales: ['es'],
 		defaultLocale: 'es',
 	},
+	images: {
+		domains: ['i.ibb.co'],
+	},
 });

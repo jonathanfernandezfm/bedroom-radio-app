@@ -24,7 +24,10 @@ const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setS
 		<Transition in={!showPlayer} unmountOnExit timeout={duration}>
 			{(state) => (
 				<div
-					className="absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-screen gap-10 overflow-hidden text-white bg-black"
+					// ${
+					// 	showPlayer ? 'load-screen' : ''
+					// }
+					className={`absolute top-0 left-0 z-50 flex flex-col items-center justify-center w-full h-screen gap-10 overflow-hidden text-white bg-black `}
 					style={{
 						...transitionOpacity.default,
 						...transitionOpacity[state],
@@ -57,7 +60,9 @@ const LoadScreen: React.FC<LoadScreenProps> = ({ showPlayer, loadingStatus, setS
 									hideWhenDoneDelay: 0,
 								}}
 							>
-								<span className="">Entra y descubre</span>
+								<span>
+									Entra y descubre <span>➜</span>
+								</span>
 							</Typist>
 						</button>
 					</div>

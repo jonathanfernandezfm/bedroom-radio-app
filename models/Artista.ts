@@ -11,6 +11,8 @@ export type Artista = {
 	url_instagram: string;
 	url_spotify: string;
 	url_youtube: string;
+	url_twitter: string;
+	url_imagen: string;
 	__v: number;
 	_id: string;
 };

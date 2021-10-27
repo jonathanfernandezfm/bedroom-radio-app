@@ -11,6 +11,8 @@ import Modal from '@components/Modal';
 import Logo2 from 'svg/logo2';
 import { shuffle } from 'utils/functions';
 import AboutUs from '@components/AboutUs';
+import LateralSlide from '@components/LateralSlide';
+import { Artista } from '@models/Artista';
 
 interface HomeProps {
 	playlists: Playlist[];
@@ -26,6 +28,8 @@ const Home = ({ playlists }: HomeProps) => {
 	const [playlist, setPlaylist] = useState<Playlist>(playlists[0]);
 	const [song, setSong] = useState<Cancion>(playlist?.canciones[0]);
 	const [showInterface, toggleShowInterface] = useState(true);
+	const [showArtistInfo, toggleShowArtistInfo] = useState(false);
+	const [selectedArtist, setSelectedArtist] = useState<Artista | undefined>(undefined);
 
 	useEffect(() => {
 		playlists[0].canciones = shuffle(playlists[0].canciones);
@@ -124,13 +128,25 @@ const Home = ({ playlists }: HomeProps) => {
 				<Modal toggleModalInfo={toggleModalInfo} visible={modalVisible}>
 					<AboutUs />
 				</Modal>
+				<LateralSlide
+					song={song}
+					show={showArtistInfo}
+					toggleShowArtistInfo={toggleShowArtistInfo}
+					setSelectedArtist={setSelectedArtist}
+					artist={selectedArtist}
+				/>
 				<TopMenu toggleModalInfo={toggleModalInfo} showInterface={showInterface} />
 				<div className="fixed z-30 flex justify-center w-full mt-6 ml-0 text-lg text-center text-white lg:ml-0 sm:ml-10 sm:justify-start lg:justify-center font-krona">
 					<Logo2 width={120} />
 				</div>
 
 				{/* SONG RELATED INTERFACE */}
-				<SongInfo song={song} showInterface={showInterface} />
+				<SongInfo
+					song={song}
+					showInterface={showInterface}
+					toggleShowArtistInfo={toggleShowArtistInfo}
+					setSelectedArtist={setSelectedArtist}
+				/>
 				<SocialLinks song={song} showInterface={showInterface} />
 				<YoutubePlayer
 					nextSong={nextSong}

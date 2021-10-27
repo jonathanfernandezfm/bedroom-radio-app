@@ -1,11 +1,15 @@
+import { Artista } from '@models/Artista';
 import { Cancion } from '@models/Cancion';
+import { Dispatch, SetStateAction } from 'react';
 
 interface SongInfoProps {
 	song: Cancion;
 	showInterface: boolean;
+	toggleShowArtistInfo: Dispatch<SetStateAction<boolean>>;
+	setSelectedArtist: Dispatch<SetStateAction<Artista | undefined>>;
 }
 
-const SongInfo = ({ song, showInterface }: SongInfoProps) => {
+const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist }: SongInfoProps) => {
 	return (
 		<div
 			className={`fixed z-30 flex flex-col justify-center h-full gap-4 mx-6 sm:mx-10 transition-opacity duration-1000 ${
@@ -18,7 +22,14 @@ const SongInfo = ({ song, showInterface }: SongInfoProps) => {
 					{song.artistas.map((art, index) => {
 						return (
 							<div key={index}>
-								<h2 className="hover:cursor-pointer menu-link blue" key={art._id}>
+								<h2
+									className="hover:cursor-pointer menu-link blue"
+									key={art._id}
+									onClick={() => {
+										toggleShowArtistInfo(true);
+										setSelectedArtist(art);
+									}}
+								>
 									{art.nombre}
 								</h2>
 								{index !== song.artistas.length - 1 && ' & '}
