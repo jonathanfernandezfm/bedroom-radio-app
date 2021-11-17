@@ -1,6 +1,7 @@
 import { Artista } from '@models/Artista';
 import { Cancion } from '@models/Cancion';
 import { Dispatch, SetStateAction } from 'react';
+import { AiFillStar } from 'react-icons/ai';
 
 interface SongInfoProps {
 	song: Cancion;
@@ -16,6 +17,12 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 				showInterface ? 'opacity-100' : 'opacity-0'
 			}`}
 		>
+			{song.estreno && (
+				<span className="flex items-center gap-1 pl-2 -mb-2 font-bold text-blue-400">
+					<AiFillStar />
+					ESTRENO
+				</span>
+			)}
 			<h1 className="text-5xl tracking-tighter text-white sm:text-8xl font-krona">{song.nombre}</h1>
 			<div className="flex">
 				<div className="text-2xl tracking-tight text-blue-400 uppercase sm:text-3xl font-krona">

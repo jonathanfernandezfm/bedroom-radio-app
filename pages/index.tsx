@@ -33,6 +33,11 @@ const Home = ({ playlists }: HomeProps) => {
 
 	useEffect(() => {
 		playlists[0].canciones = shuffle(playlists[0].canciones);
+		playlists[0].canciones = [
+			...playlists[0].canciones.filter((c) => c.estreno),
+			...playlists[0].canciones.filter((c) => !c.estreno),
+		];
+
 		setPlaylist(playlists[0]);
 
 		setSong(playlists[0].canciones[0]);
