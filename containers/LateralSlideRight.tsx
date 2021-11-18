@@ -49,7 +49,7 @@ const LateralSlide = ({ show, toggleLateralSlideRight, children }: LateralSlideP
 					></div>
 					<div
 						style={{ ...transitionStyles.default, ...transitionStyles[state] }}
-						className="fixed right-0 z-50 w-full h-screen text-white bg-transparent md:pl-1 md:w-auto ring-4 ring-white"
+						className="fixed right-0 z-50 w-full h-screen text-white bg-transparent md:w-auto md:pl-1 ring-4 ring-white"
 					>
 						<button
 							aria-label="Botón cerrar modal"
