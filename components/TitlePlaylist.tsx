@@ -1,15 +1,25 @@
 import { Playlist } from '@models/Playlist';
-import { IoIosMenu } from 'react-icons/io';
+import { Dispatch, SetStateAction } from 'react';
+import { IoStatsChart } from 'react-icons/io5';
 
 interface TitlePlaylistProps {
 	playlist: Playlist;
+	showInterface: boolean;
+	toggleShowPlaylists: Dispatch<SetStateAction<boolean>>;
 }
 
-const TitlePlaylist = ({ playlist }: TitlePlaylistProps) => {
+const TitlePlaylist = ({ playlist, toggleShowPlaylists, showInterface }: TitlePlaylistProps) => {
 	return (
-		<div className="fixed z-40 flex items-center gap-2 mt-6 ml-10 hover:cursor-pointer">
-			<IoIosMenu color="white" size={20} className="mb-0.5" />
-			<div className="text-lg text-white font-krona">{playlist.nombre}</div>
+		<div
+			className={`fixed z-40 flex items-center top-8 gap-2 hover:cursor-pointer transition-opacity sm:top-8 duration-1000 left-6 sm:left-10 ${
+				showInterface ? 'opacity-100' : 'opacity-0'
+			}`}
+			onClick={() => {
+				toggleShowPlaylists(true);
+			}}
+		>
+			<IoStatsChart color="white" size={24} className="mb-0.5" />
+			<div className="hidden mt-1 text-lg text-white font-krona sm:block">{playlist.nombre}</div>
 		</div>
 	);
 };

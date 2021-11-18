@@ -11,8 +11,12 @@ import Modal from '@components/Modal';
 import Logo2 from 'svg/logo2';
 import { shuffle } from 'utils/functions';
 import AboutUs from '@components/AboutUs';
-import LateralSlide from '@components/LateralSlide';
+import LateralSlideRight from 'containers/LateralSlideRight';
+import LateralSlideLeft from 'containers/LateralSlideLeft';
 import { Artista } from '@models/Artista';
+import TitlePlaylist from '@components/TitlePlaylist';
+import ArtistInfo from '@components/ArtistInfo';
+import PlaylistList from '@components/PlaylistList';
 
 interface HomeProps {
 	playlists: Playlist[];
@@ -28,20 +32,15 @@ const Home = ({ playlists }: HomeProps) => {
 	const [playlist, setPlaylist] = useState<Playlist>(playlists[0]);
 	const [song, setSong] = useState<Cancion>(playlist?.canciones[0]);
 	const [showInterface, toggleShowInterface] = useState(true);
-	const [showArtistInfo, toggleShowArtistInfo] = useState(false);
+	const [showLateralSlideRight, toggleLateralSlideRight] = useState(false);
+	const [showLateralSlideLeft, toggleLateralSlideLeft] = useState(false);
 	const [selectedArtist, setSelectedArtist] = useState<Artista | undefined>(undefined);
+	const [selectedPlaylist, setSelectedPlaylist] = useState<number>(0);
 
 	useEffect(() => {
-		playlists[0].canciones = shuffle(playlists[0].canciones);
-		playlists[0].canciones = [
-			...playlists[0].canciones.filter((c) => c.estreno),
-			...playlists[0].canciones.filter((c) => !c.estreno),
-		];
-
-		setPlaylist(playlists[0]);
-
-		setSong(playlists[0].canciones[0]);
-	}, [playlists]);
+		setPlaylist(playlists[selectedPlaylist]);
+		setSong(playlists[selectedPlaylist].canciones[0]);
+	}, [playlists, selectedPlaylist]);
 
 	useEffect(() => {
 		window.addEventListener('mousemove', interfaceOnMouse);
@@ -83,6 +82,11 @@ const Home = ({ playlists }: HomeProps) => {
 	const toggleModalInfo = (value?: boolean) => {
 		if (value !== undefined) toggleModalVisible(value);
 		else toggleModalVisible(!modalVisible);
+	};
+
+	const selectPlaylist = (value: number) => {
+		setSelectedPlaylist(value);
+		toggleLateralSlideLeft(false);
 	};
 
 	return (
@@ -133,15 +137,31 @@ const Home = ({ playlists }: HomeProps) => {
 				<Modal toggleModalInfo={toggleModalInfo} visible={modalVisible}>
 					<AboutUs />
 				</Modal>
-				<LateralSlide
-					song={song}
-					show={showArtistInfo}
-					toggleShowArtistInfo={toggleShowArtistInfo}
-					setSelectedArtist={setSelectedArtist}
-					artist={selectedArtist}
+
+				{/* LATERAL SLIDE LEFT */}
+				<LateralSlideLeft show={showLateralSlideLeft} toggleLateralSlideLeft={toggleLateralSlideLeft}>
+					<PlaylistList
+						playlists={playlists}
+						selectedPlaylist={selectedPlaylist}
+						selectPlaylist={selectPlaylist}
+					/>
+				</LateralSlideLeft>
+
+				{/* LATERAL SLIDE RIGHT */}
+				<LateralSlideRight show={showLateralSlideRight} toggleLateralSlideRight={toggleLateralSlideRight}>
+					<ArtistInfo song={song} setSelectedArtist={setSelectedArtist} artist={selectedArtist} />
+				</LateralSlideRight>
+
+				{/* PLAYLIST SELECTOR */}
+				<TitlePlaylist
+					showInterface={showInterface}
+					toggleShowPlaylists={toggleLateralSlideLeft}
+					playlist={playlist}
 				/>
+
+				{/* TOP MENU */}
 				<TopMenu toggleModalInfo={toggleModalInfo} showInterface={showInterface} />
-				<div className="fixed z-30 flex justify-center w-full mt-6 ml-0 text-lg text-center text-white lg:ml-0 sm:ml-10 sm:justify-start lg:justify-center font-krona">
+				<div className="fixed z-30 flex justify-center w-full mt-6 text-lg text-center text-white font-krona">
 					<Logo2 width={120} />
 				</div>
 
@@ -149,7 +169,7 @@ const Home = ({ playlists }: HomeProps) => {
 				<SongInfo
 					song={song}
 					showInterface={showInterface}
-					toggleShowArtistInfo={toggleShowArtistInfo}
+					toggleShowArtistInfo={toggleLateralSlideRight}
 					setSelectedArtist={setSelectedArtist}
 				/>
 				<SocialLinks song={song} showInterface={showInterface} />
@@ -169,6 +189,15 @@ const Home = ({ playlists }: HomeProps) => {
 Home.getInitialProps = async () => {
 	const res = await fetch(`${process.env.API_URL}/playlists`);
 	const json = await res.json();
+
+	json.forEach((playlist: Playlist) => {
+		playlist.canciones = shuffle(playlist.canciones);
+		playlist.canciones = [
+			...playlist.canciones.filter((c) => c.estreno),
+			...playlist.canciones.filter((c) => !c.estreno),
+		];
+	});
+
 	return { playlists: json };
 };
 

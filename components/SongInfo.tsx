@@ -18,7 +18,7 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 			}`}
 		>
 			{song.estreno && (
-				<span className="flex items-center gap-1 pl-2 -mb-2 font-bold text-blue-400">
+				<span className="flex items-center gap-1 -mb-2 font-bold text-blue-400">
 					<AiFillStar />
 					ESTRENO
 				</span>

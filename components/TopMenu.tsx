@@ -12,7 +12,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 	const [isMobile, setIsMobile] = useState(false);
 
 	const handleWindowSizeChange = () => {
-		if (window.innerWidth < 640 && !isMobile) setIsMobile(true);
+		if (window.innerWidth < 1200 && !isMobile) setIsMobile(true);
 		else setIsMobile(false);
 	};
 
@@ -38,7 +38,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 			}`}
 		>
 			<button
-				className="sm:hidden"
+				className="lg:hidden"
 				onClick={() => {
 					toggleModalInfo(false);
 					toggleMenu();
@@ -53,7 +53,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 				<IoClose color="white" size={30} className={`${menuOpen ? 'animate-fade-in' : 'animate-fade-out'}`} />
 			</button>
 			{!isMobile || (isMobile && menuOpen) ? (
-				<ul className="fixed flex flex-col gap-4 mt-6 text-lg text-right text-white sm:top-0 sm:text-center top-16 right-6 sm:gap-8 sm:flex-row sm:right-10">
+				<ul className="fixed flex flex-col gap-4 mt-6 text-lg text-right text-white lg:top-0 lg:text-center top-16 right-6 lg:gap-8 lg:flex-row lg:right-10">
 					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
 						<button
 							className="menu-link"
