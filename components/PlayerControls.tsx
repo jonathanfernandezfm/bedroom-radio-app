@@ -1,4 +1,4 @@
-import { IoPauseOutline, IoPlay } from 'react-icons/io5';
+import { IoPauseOutline, IoPlaySharp } from 'react-icons/io5';
 
 interface PlayerControlsProps {
 	onPlayPause: () => void;
@@ -30,7 +30,7 @@ const PlayerControls = ({
 					PREV
 				</button>
 				<button onClick={onPlayPause} className="flex" aria-label="Play pause">
-					{playerState === 2 && <IoPlay size={30} fill="white" />}
+					{playerState === 2 && <IoPlaySharp size={30} fill="white" />}
 					{playerState === 1 && <IoPauseOutline size={30} fill="white" />}
 					{playerState !== 1 && playerState !== 2 && <IoPauseOutline size={30} fill="white" />}
 				</button>

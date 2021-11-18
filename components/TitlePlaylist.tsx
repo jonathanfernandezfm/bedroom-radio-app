@@ -1,6 +1,6 @@
 import { Playlist } from '@models/Playlist';
 import { Dispatch, SetStateAction } from 'react';
-import { IoStatsChart } from 'react-icons/io5';
+import { IoStatsChartSharp } from 'react-icons/io5';
 
 interface TitlePlaylistProps {
 	playlist: Playlist;
@@ -18,7 +18,7 @@ const TitlePlaylist = ({ playlist, toggleShowPlaylists, showInterface }: TitlePl
 				toggleShowPlaylists(true);
 			}}
 		>
-			<IoStatsChart color="white" size={24} className="mb-0.5" />
+			<IoStatsChartSharp color="white" size={24} className="mb-0.5" />
 			<div className="hidden mt-1 text-lg text-white font-krona sm:block">{playlist.nombre}</div>
 		</div>
 	);
