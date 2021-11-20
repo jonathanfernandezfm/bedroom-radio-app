@@ -147,10 +147,6 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 				onError={(e) => {
 					console.log(e);
 				}}
-				// onPlay={func}                     // defaults -> noop
-				// onPause={func}                    // defaults -> noop
-				// onPlaybackRateChange={func}       // defaults -> noop
-				// onPlaybackQualityChange={func}    // defaults -> noop
 			/>
 		</>
 	);

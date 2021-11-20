@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Transition } from 'react-transition-group';
 import { MdClose } from 'react-icons/md';
 
@@ -19,6 +19,22 @@ const transitionStyles: any = {
 };
 
 const Modal = ({ children, toggleModalInfo, visible }: ModalProps) => {
+	useEffect(() => {
+		window.addEventListener('keyup', onKeyPress);
+
+		return () => {
+			window.removeEventListener('keyup', onKeyPress);
+		};
+	});
+
+	const onKeyPress = (e: any) => {
+		switch (e.code) {
+			case 'Escape':
+				toggleModalInfo(false);
+				break;
+		}
+	};
+
 	return (
 		<Transition
 			in={visible}

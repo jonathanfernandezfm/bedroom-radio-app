@@ -2,6 +2,7 @@ import { Artista } from '@models/Artista';
 import { Cancion } from '@models/Cancion';
 import { Dispatch, SetStateAction } from 'react';
 import { AiFillStar } from 'react-icons/ai';
+import Typist from 'react-typist';
 
 interface SongInfoProps {
 	song: Cancion;
@@ -23,7 +24,21 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 					ESTRENO
 				</span>
 			)}
-			<h1 className="text-5xl tracking-tighter text-white sm:text-8xl font-krona">{song.nombre}</h1>
+			<h1 className="text-5xl tracking-tighter text-white sm:text-8xl font-krona">
+				<Typist
+					key={song._id}
+					cursor={{
+						show: true,
+						blink: true,
+						element: '|',
+						hideWhenDone: true,
+						hideWhenDoneDelay: 0,
+					}}
+					avgTypingDelay={140}
+				>
+					<span>{song.nombre}</span>
+				</Typist>
+			</h1>
 			<div className="flex">
 				<div className="text-2xl tracking-tight text-blue-400 uppercase sm:text-3xl font-krona">
 					{song.artistas.map((art, index) => {

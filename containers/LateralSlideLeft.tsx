@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction } from 'react';
+import { Dispatch, SetStateAction, useEffect } from 'react';
 import { Transition } from 'react-transition-group';
 import { MdClose } from 'react-icons/md';
 
@@ -27,6 +27,22 @@ const transitionBackdrop: any = {
 };
 
 const LateralSlideLeft = ({ show, toggleLateralSlideLeft, children }: LateralSlideProps) => {
+	useEffect(() => {
+		window.addEventListener('keyup', onKeyPress);
+
+		return () => {
+			window.removeEventListener('keyup', onKeyPress);
+		};
+	});
+
+	const onKeyPress = (e: any) => {
+		switch (e.code) {
+			case 'Escape':
+				toggleLateralSlideLeft(false);
+				break;
+		}
+	};
+
 	return (
 		<Transition
 			in={show}
