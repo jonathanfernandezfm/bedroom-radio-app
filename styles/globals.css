@@ -66,3 +66,23 @@ a {
 	stroke-dashoffset: 0px;
 	cursor: pointer;
 }
+
+.load-screen {
+	mask: url('public/urban-sprite.png');
+	mask-size: 3000% 100%;
+}
+
+.load-screen.hide {
+	animation: ani 1.3s steps(29) forwards;
+}
+
+@keyframes ani {
+	0% {
+		mask-position: 0 0;
+	}
+
+	100% {
+		mask-position: 100% 0;
+		visibility: hidden;
+	}
+}
