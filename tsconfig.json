@@ -19,7 +19,8 @@
 			"@layout/*": ["components/layout/*"],
 			"@public/*": ["public/*"],
 			"@models/*": ["models/*"],
-			"@assets/*": ["assets/*"]
+			"@assets/*": ["assets/*"],
+			"@containers/*": ["containers/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
