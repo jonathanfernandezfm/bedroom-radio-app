@@ -153,11 +153,13 @@ const Home = ({ playlists }: HomeProps) => {
 				</LateralSlideRight>
 
 				{/* PLAYLIST SELECTOR */}
-				<TitlePlaylist
-					showInterface={showInterface}
-					toggleShowPlaylists={toggleLateralSlideLeft}
-					playlist={playlist}
-				/>
+				{playlists.length > 1 && (
+					<TitlePlaylist
+						showInterface={showInterface}
+						toggleShowPlaylists={toggleLateralSlideLeft}
+						playlist={playlist}
+					/>
+				)}
 
 				{/* TOP MENU */}
 				<TopMenu toggleModalInfo={toggleModalInfo} showInterface={showInterface} />
