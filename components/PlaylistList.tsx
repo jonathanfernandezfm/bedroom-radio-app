@@ -29,7 +29,7 @@ const PlaylistList = ({ playlists, selectedPlaylist, selectPlaylist }: PlaylistL
 							selectPlaylist(index);
 						}}
 						style={{
-							backgroundImage: `url("${p.canciones[0]?.artistas[0]?.url_imagen}")`,
+							backgroundImage: `url("${p.url_imagen}")`,
 						}}
 					>
 						<div
