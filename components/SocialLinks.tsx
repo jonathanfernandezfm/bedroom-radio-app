@@ -17,7 +17,7 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 			.map((art) => (art.url_twitter ? `%40${art.url_twitter.split('/').pop()}` : encodeURIComponent(art.nombre)))
 			.join('%20%26%20');
 
-		url += `%20a%20trav%C3%A9s%20de%20bedroomradio.es%0A%0A${song.url_youtube}`;
+		url += `%20a%20trav%C3%A9s%20de%20%40bedroomradio_%0A%0A${song.url_youtube}`;
 
 		return url;
 	};
