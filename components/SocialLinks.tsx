@@ -9,10 +9,12 @@ interface SocialLinksProps {
 
 export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 	const getTwitterShareURL = () => {
-		let url = `https://twitter.com/intent/tweet?text=🎶He%20descubierto%20${song.nombre}%20de%20`;
+		let url = `https://twitter.com/intent/tweet?text=🎶He%20descubierto%20${encodeURIComponent(
+			song.nombre
+		)}%20de%20`;
 
 		url += song.artistas
-			.map((art) => (art.url_twitter ? `%40${art.url_twitter.split('/').pop()}` : art.nombre))
+			.map((art) => (art.url_twitter ? `%40${art.url_twitter.split('/').pop()}` : encodeURIComponent(art.nombre)))
 			.join('%20%26%20');
 
 		url += `%20a%20trav%C3%A9s%20de%20bedroomradio.es%0A%0A${song.url_youtube}`;
