@@ -86,3 +86,14 @@ a {
 		visibility: hidden;
 	}
 }
+
+.link-hover {
+	stroke-dasharray: 440px;
+	stroke-dashoffset: 440px;
+	transition: stroke 0.25s ease 0s, stroke-dasharray 0.35s;
+}
+
+.link-hover:hover {
+	stroke-dasharray: 915px;
+	transition: stroke 0.25s ease 0s, stroke-dasharray 0.35s;
+}

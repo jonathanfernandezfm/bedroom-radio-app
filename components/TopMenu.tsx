@@ -56,7 +56,7 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 				<ul className="fixed flex flex-col gap-4 mt-6 text-lg text-right text-white lg:top-0 lg:text-center top-16 right-6 lg:gap-8 lg:flex-row lg:right-10">
 					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
 						<button
-							className="menu-link"
+							className="relative" //menu-link
 							onClick={() => {
 								toggleModalInfo(true);
 								toggleMenu();
@@ -64,15 +64,45 @@ const TopMenu = ({ toggleModalInfo, showInterface }: TopMenuProps) => {
 							aria-label="Sobre nosotros"
 						>
 							Sobre nosotros
+							<svg
+								width="164"
+								height="54"
+								viewBox="0 0 164 54"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								className="absolute z-50 link-hover top-[-13px] left-[-20px]"
+							>
+								<path
+									d="M99.4014 2.16554C79.9784 0.617403 -0.141808 9.86204 3.09537 32.6859C7.14184 61.2158 165.359 56.5713 160.908 29.0367C157.347 7.00901 68.9181 6.69936 22.5185 3.82425"
+									stroke="white"
+									strokeWidth="2"
+									strokeLinecap="round"
+								/>
+							</svg>
 						</button>
 					</li>
 					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
 						<a
 							href="mailto:infobedroomradio@gmail.com"
-							className="menu-link"
+							className="relative" //menu-link
 							title="Escribe un email a bedroom radio"
 						>
 							Contacto
+							<svg
+								width="110"
+								height="51"
+								viewBox="0 0 110 51"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								className="absolute z-50 link-hover top-[-16px] left-[-17px]"
+							>
+								<path
+									d="M104.806 7.09638C91.7725 5.55347 -0.134422 7.00419 2.03789 29.7511C4.75328 58.1847 110.925 53.5559 107.938 26.1142C105.549 4.16078 43.9685 4.86542 12.832 2"
+									stroke="white"
+									strokeWidth="2"
+									strokeLinecap="round"
+								/>
+							</svg>
 						</a>
 					</li>
 					<li className="transition-transform hover:-rotate-3 hover:scale-105 hover:cursor-pointer">
