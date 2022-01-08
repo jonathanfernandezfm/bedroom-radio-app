@@ -29,7 +29,7 @@ const PlaylistList = ({ playlists, selectedPlaylist, selectPlaylist }: PlaylistL
 							selectPlaylist(index);
 						}}
 						style={{
-							backgroundImage: `url("${p.canciones[0]?.artistas[0]?.url_imagen}")`,
+							backgroundImage: `url("${p.url_imagen}")`,
 						}}
 					>
 						<div
@@ -39,7 +39,7 @@ const PlaylistList = ({ playlists, selectedPlaylist, selectPlaylist }: PlaylistL
 							}}
 							className="absolute top-0 left-0 z-20 w-full h-full bg-center opacity-8"
 						></div>
-						<h3 className="flex justify-center text-xl text-center font-krona">{p.nombre}</h3>
+						<h3 className="flex justify-center text-xl text-center font-anton">{p.nombre}</h3>
 					</div>
 				))}
 			</div>

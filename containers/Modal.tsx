@@ -60,7 +60,7 @@ const Modal = ({ children, toggleModalInfo, visible }: ModalProps) => {
 					></div>
 
 					{/* MODAL */}
-					<div className="absolute max-w-md p-1 mx-6 text-white transform bg-transparent sm:p-2 ring-4 ring-white pointer-events transfrom">
+					<div className="absolute max-w-md p-1 mx-6 text-white transform bg-transparent sm:p-1 ring-4 ring-white pointer-events transfrom">
 						<button
 							aria-label="Botón cerrar modal"
 							className="absolute right-6 top-6 hover:scale-110"

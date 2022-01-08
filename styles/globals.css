@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;600;700&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;600;700&family=Anton&family=Michroma&display=swap');
 @import './styles';
 
 html,
