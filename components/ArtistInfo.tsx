@@ -20,7 +20,7 @@ const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 				)}
 			</div>
 			<div className="md:px-28">
-				<h3 className="flex justify-center w-full mt-12 text-4xl text-center md:px-0 px-14 md:w-56 font-krona">
+				<h3 className="flex justify-center w-full mt-12 text-4xl text-center md:px-0 px-14 md:w-56 font-michroma">
 					{artist?.nombre}
 				</h3>
 				<div className="flex justify-center gap-4 mt-5">
@@ -92,7 +92,7 @@ const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 			<div className="absolute flex justify-center w-full bottom-10">
 				{song.artistas.map((art) => (
 					<button
-						className={`p-4 text-blue-400 uppercase font-krona ${
+						className={`p-4 text-blue-400 uppercase font-michroma ${
 							artist?.nombre === art.nombre ? 'underline' : ''
 						}`}
 						key={art.id}

@@ -5,8 +5,9 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				krona: "'Krona One', sans",
 				exo: "'Exo One', sans",
+				anton: "'Anton', sans-serif",
+				michroma: "'Michroma', sans-serif",
 			},
 			scale: {
 				200: '2',

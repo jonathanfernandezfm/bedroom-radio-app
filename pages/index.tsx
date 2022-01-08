@@ -163,7 +163,7 @@ const Home = ({ playlists }: HomeProps) => {
 
 				{/* TOP MENU */}
 				<TopMenu toggleModalInfo={toggleModalInfo} showInterface={showInterface} />
-				<div className="fixed z-30 flex justify-center w-full mt-6 text-lg text-center text-white font-krona">
+				<div className="fixed z-30 flex justify-center w-full mt-6 text-lg text-center text-white font-michroma">
 					<Logo2 width={120} />
 				</div>
 

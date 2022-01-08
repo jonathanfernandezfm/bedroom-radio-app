@@ -24,7 +24,7 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 					ESTRENO
 				</span>
 			)}
-			<h1 className="text-5xl tracking-tighter text-white sm:text-8xl font-krona">
+			<h1 className="text-5xl tracking-tighter text-white sm:text-9xl lowercase font-anton">
 				<Typist
 					key={song._id}
 					cursor={{
@@ -40,7 +40,7 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 				</Typist>
 			</h1>
 			<div className="flex">
-				<div className="text-2xl tracking-tight text-blue-400 uppercase sm:text-3xl font-krona">
+				<div className="text-2xl tracking-tight text-white uppercase sm:text-3xl font-michroma">
 					{song.artistas.map((art, index) => {
 						return (
 							<div key={index}>
