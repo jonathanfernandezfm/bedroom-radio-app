@@ -20,7 +20,7 @@ const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 				)}
 			</div>
 			<div className="md:px-28">
-				<h3 className="flex justify-center w-full mt-12 text-4xl text-center md:px-0 px-14 md:w-56 font-michroma">
+				<h3 className="flex justify-center w-full mt-12 text-4xl text-center md:px-0 px-14 md:w-56 font-michroma capitalize">
 					{artist?.nombre}
 				</h3>
 				<div className="flex justify-center gap-4 mt-5">
