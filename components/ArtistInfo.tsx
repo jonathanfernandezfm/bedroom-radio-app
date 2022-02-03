@@ -11,7 +11,12 @@ interface ArtistInfo {
 
 const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 	return (
-		<div className="w-full h-full py-16 pt-24 bg-black">
+		<div className="w-full h-full py-16 pt-24 bg-black flex flex-col justify-center items-center gap-4">
+			<div className="md:px-28">
+				<h3 className="flex justify-center w-full mb-5 text-4xl text-center md:px-0 px-14 md:w-56 font-michroma capitalize">
+					{artist?.nombre}
+				</h3>
+			</div>
 			<div className="flex justify-center md:block md:px-28">
 				{artist?.url_imagen ? (
 					<Image src={`${artist.url_imagen}`} alt={``} width="244" height="288" className="bg-gray-600" />
@@ -19,10 +24,7 @@ const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 					<div className="w-[244px] bg-gray-600 h-[288px]"></div>
 				)}
 			</div>
-			<div className="md:px-28">
-				<h3 className="flex justify-center w-full mt-12 text-4xl text-center md:px-0 px-14 md:w-56 font-michroma capitalize">
-					{artist?.nombre}
-				</h3>
+			<div className="md:px-28 mb-28">
 				<div className="flex justify-center gap-4 mt-5">
 					{artist?.url_youtube && (
 						<a
@@ -87,8 +89,6 @@ const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 					)}
 				</div>
 			</div>
-			{/* <p className="m-auto mt-10 text-justify w-80">{artist?.biografia}</p> */}
-			<p className="m-auto mt-10 text-justify w-80">{artist?.biografia}</p>
 			<div className="absolute flex justify-center w-full bottom-10">
 				{song.artistas.map((art) => (
 					<button
