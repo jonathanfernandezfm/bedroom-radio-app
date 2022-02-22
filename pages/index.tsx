@@ -98,7 +98,7 @@ const Home = ({ playlists }: HomeProps) => {
 					name="description"
 					content="Bedroom Radio es una plataforma de música para descubrir y amplificar la música de artistas hispanohablantes en todo el mundo."
 				/>
-				<meta name="robots" content="index, follow" />
+				{/* <meta name="robots" content="index, follow" /> */}
 				<link rel="canonical" href="http://bedroomradio.es/" />
 				<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
