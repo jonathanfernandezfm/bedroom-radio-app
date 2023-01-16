@@ -1,0 +1,948 @@
+{
+	"610418bdd77e270015296fc6": {
+		"id": "610418bdd77e270015296fc6",
+		"nombre": "Suave",
+		"url_spotify": "https://open.spotify.com/artist/16QMnwd53HiSIbB57esWKu?si=pvAE-7AURiKqQkprbJuUmA&dl_branch=1",
+		"url_instagram": "https://www.instagram.com/nosoysuave/",
+		"url_youtube": "https://www.youtube.com/channel/UC761lTG6OTDWENtKyPcVOsA",
+		"biografia": "",
+		"url_imagen": "https://i.ibb.co/K9fFKPd/suave.png"
+	},
+	"61041922d77e270015296fc9": {
+		"id": "61041922d77e270015296fc9",
+		"url_spotify": "https://open.spotify.com/artist/6G4LAz42NNVfLTq2eSNPvr?si=sltnTfvVTTKiyLAofv_LSA&dl_branch=1",
+		"nombre": "El Buen Hijo",
+		"url_instagram": "https://www.instagram.com/elbuenhijo_/",
+		"url_youtube": "https://www.youtube.com/channel/UCI4p44MSjLtY0uEoz9QJCQQ",
+		"biografia": "",
+		"url_imagen": "https://i.ibb.co/LC1L0HD/elbuenhijo.png"
+	},
+	"61041978d77e270015296fcc": {
+		"id": "61041978d77e270015296fcc",
+		"nombre": "Slim Samurai",
+		"url_instagram": "https://www.instagram.com/slimsamurai/",
+		"url_youtube": "https://www.youtube.com/channel/UCweaJOm_ODRFHZ6kRmoutKw",
+		"url_spotify": "https://open.spotify.com/artist/4Y9HKNCC79fsVTutvIDNgv?si=2AdeRsdwQSypRppHekKJUA&dl_branch=1",
+		"biografia": "",
+		"url_imagen": "https://i.ibb.co/chNJyzs/slimsamurai.png"
+	},
+	"610419dbd77e270015296fcf": {
+		"id": "610419dbd77e270015296fcf",
+		"nombre": "Pavlotambien",
+		"url_youtube": "https://www.youtube.com/channel/UCVDfDyAhKe9MIpHj9tcJpIg",
+		"url_instagram": "https://www.instagram.com/pavlotambien/",
+		"url_spotify": "https://open.spotify.com/artist/6dmGOnZefKWKGUYMvK0pe4?si=KoOgoGZkRtOCkwyim9kL7g&dl_branch=1",
+		"biografia": "",
+		"url_imagen": "https://i.ibb.co/CHFh2B4/pavlotambien.png"
+	},
+	"616aa09c2d5e6800167ed0f5": {
+		"id": "616aa09c2d5e6800167ed0f5",
+		"nombre": "Ale Ocaña",
+		"url_spotify": "https://open.spotify.com/artist/2fDPuICrsdqI5l25Q5rXUe?si=Slp8PxQjTO-UrTd68d-QVQ",
+		"url_youtube": "https://www.youtube.com/channel/UCIV42eOagB-cI9PBNNyHomA",
+		"url_instagram": "https://www.instagram.com/aleocana_/",
+		"url_twitter": "https://twitter.com/ale__od",
+		"url_imagen": "https://i.ibb.co/HFBDSRC/aleoca-a.png"
+	},
+	"616aa2292d5e6800167ed0f7": {
+		"id": "616aa2292d5e6800167ed0f7",
+		"nombre": "fuckfilipp",
+		"url_spotify": "https://open.spotify.com/artist/6gFcPZeMtfpB8DPaSqm10A?si=YsN2oW2fSJKrLbPM1upMGw",
+		"url_youtube": "https://www.youtube.com/channel/UCald5bA-vdrRHWYw3O9mSEw/",
+		"url_instagram": "https://www.instagram.com/fuckfilipp/",
+		"url_twitter": "https://twitter.com/fuckfilipp",
+		"url_imagen": "https://i.ibb.co/GPwx4bv/fuckfilipp.png"
+	},
+	"616aa41a2d5e6800167ed0fa": {
+		"id": "616aa41a2d5e6800167ed0fa",
+		"nombre": "A.deade",
+		"url_spotify": "https://open.spotify.com/artist/6c25gZp1SSiNd6QPTcgzNx?si=YRgn9vzIQi-trLSAWzKAtg",
+		"url_instagram": "https://www.instagram.com/a.deade/",
+		"url_twitter": "https://twitter.com/_adeade_",
+		"url_youtube": "https://www.youtube.com/c/ADEADE777/",
+		"url_imagen": "https://i.ibb.co/bdj0YhF/adeade.png"
+	},
+	"616aa45d2d5e6800167ed0fb": {
+		"id": "616aa45d2d5e6800167ed0fb",
+		"nombre": "Lino Bandini",
+		"url_spotify": "https://open.spotify.com/artist/31w8Av8D2XgKQNRQTs6jJs?si=PURlQQaFRdO23pXXsxxIHQ",
+		"url_twitter": "https://twitter.com/LinoBandini",
+		"url_instagram": "https://www.instagram.com/linobandini/",
+		"url_youtube": "https://www.youtube.com/channel/UCrnX97sEj5kAMNGYqAzb4-A",
+		"url_imagen": "https://i.ibb.co/fnf367w/linobandini.png"
+	},
+	"616aa5f62d5e6800167ed0fe": {
+		"id": "616aa5f62d5e6800167ed0fe",
+		"nombre": "Ana Cano",
+		"url_twitter": "https://twitter.com/anathisiswar",
+		"url_spotify": "https://open.spotify.com/artist/6EImk5ilteJeVJxCvWbMYO?si=sbIKLDAEQUujxqDEZqd-Kw",
+		"url_youtube": "https://www.youtube.com/user/Anathisiswar/",
+		"url_imagen": "https://i.ibb.co/0J85xQG/anacano.png"
+	},
+	"616aab1e2d5e6800167ed101": {
+		"id": "616aab1e2d5e6800167ed101",
+		"nombre": "Ghouljaboy",
+		"url_twitter": "https://twitter.com/ghouljaboy",
+		"url_instagram": "https://www.instagram.com/ghouljaboy/",
+		"url_youtube": "https://www.youtube.com/channel/UCsjKAMOf4Ah4TP4l6fbbaWA",
+		"url_spotify": "https://open.spotify.com/artist/00a2IOlewyt2Xk4702wg5d?si=E329VrzxRYel49EBBHMtkQ",
+		"url_imagen": "https://i.ibb.co/VQk9B7P/ghouljaboy.png"
+	},
+	"616aac542d5e6800167ed104": {
+		"id": "616aac542d5e6800167ed104",
+		"nombre": "Las Dianas",
+		"url_spotify": "https://open.spotify.com/artist/5jTPdO06h2aTkDtHCYMAIm?si=tkR2jPmNR4G100TNcQImuQ",
+		"url_instagram": "https://www.instagram.com/lasdianas_/",
+		"url_twitter": "https://twitter.com/lasdianas_",
+		"url_youtube": "https://www.youtube.com/c/LasDianas/",
+		"url_imagen": "https://i.ibb.co/tB2Cq0z/lasdianas.png"
+	},
+	"616aad4c2d5e6800167ed107": {
+		"id": "616aad4c2d5e6800167ed107",
+		"nombre": "Rococó",
+		"url_spotify": "https://open.spotify.com/artist/69a8n82mR2VGTcVejFM2Dq?si=JSi3Zu28St-XXpWwI6s0Cw",
+		"url_instagram": "https://www.instagram.com/mazorococo/",
+		"url_twitter": "https://twitter.com/mazorococo",
+		"url_youtube": "https://www.youtube.com/channel/UCn0uHYrCh6u8EORTDBGPCIQ/",
+		"url_imagen": "https://i.ibb.co/tLqQpLY/rococo.png"
+	},
+	"616ab10a2d5e6800167ed10c": {
+		"id": "616ab10a2d5e6800167ed10c",
+		"nombre": "Jaddø",
+		"url_spotify": "https://open.spotify.com/artist/7zwC0TopGNdesWvyXM3Qjb?si=R4YbmamyRBmF0s8_QTb8JA",
+		"url_youtube": "https://www.youtube.com/channel/UC6yOBuiaT4YUW_3Mop6_w4Q/",
+		"url_twitter": "https://twitter.com/jaddomusic",
+		"url_instagram": "https://www.instagram.com/jaddomusic/",
+		"url_imagen": "https://i.ibb.co/HhDWMPG/jaddo.png"
+	},
+	"616aba5e2d5e6800167ed10f": {
+		"id": "616aba5e2d5e6800167ed10f",
+		"nombre": "Kay Rose",
+		"url_spotify": "https://open.spotify.com/artist/2N56RrlMdinCa7savkl5AD?si=FXoxYKiQSdm3VyPDhn4Xrg",
+		"url_youtube": "https://www.youtube.com/channel/UCrgDKICBUg6wgBWEepK32gQ/",
+		"url_twitter": "https://twitter.com/kayrose____",
+		"url_instagram": "https://www.instagram.com/kayrose_____/",
+		"url_imagen": "https://i.ibb.co/ZBMGS7w/kayrose.png"
+	},
+	"616abab92d5e6800167ed110": {
+		"id": "616abab92d5e6800167ed110",
+		"nombre": "Senseven",
+		"url_spotify": "https://open.spotify.com/artist/4paX5a2On2c6qn6V1l6c11?si=lCkDZb_3Q8OUazttNVeVNQ",
+		"url_instagram": "https://www.instagram.com/senseven__/",
+		"url_twitter": "https://twitter.com/senseven_",
+		"url_imagen": "https://i.ibb.co/ZSjfsxm/senseven.png"
+	},
+	"616abb602d5e6800167ed112": {
+		"id": "616abb602d5e6800167ed112",
+		"url_youtube": "https://www.youtube.com/channel/UCcLL3rKzzWub8ZBfiEl8ysw/",
+		"nombre": "Navxja",
+		"url_spotify": "https://open.spotify.com/artist/1H5AZwBOL8ETpshyqPvYQh?si=2DNNXWcKTUq4o836f6uD_g",
+		"url_twitter": "https://twitter.com/GemiditosWho",
+		"url_instagram": "https://www.instagram.com/navxja/",
+		"url_imagen": "https://i.ibb.co/FhwMgkZ/navxja.png"
+	},
+	"616ac0d22d5e6800167ed118": {
+		"id": "616ac0d22d5e6800167ed118",
+		"url_youtube": "https://www.youtube.com/channel/UCff8aqGYu1DmWUldKop1qdw/",
+		"nombre": "Flashy Dee",
+		"url_spotify": "https://open.spotify.com/artist/0UZpdOsZnpCxoJiS7DT384?si=9U9sAQ1LQnaO_JyNepf_vQ",
+		"url_instagram": "https://www.instagram.com/flashydee/",
+		"url_twitter": "https://twitter.com/flashydee__",
+		"url_imagen": "https://i.ibb.co/NWkDGYP/flashydee.png"
+	},
+	"616ac15e2d5e6800167ed11b": {
+		"id": "616ac15e2d5e6800167ed11b",
+		"url_youtube": "https://www.youtube.com/c/BLACKPANDA",
+		"nombre": "Blackpanda",
+		"url_spotify": "https://open.spotify.com/artist/7LrXIUbc5YUI3SjEaAh3ma?si=HgDI7hviSdigzMDMynzZxg",
+		"url_instagram": "https://www.instagram.com/blackpandamusic/",
+		"url_twitter": "https://twitter.com/somosblackpanda",
+		"url_imagen": "https://i.ibb.co/f9CZ7H3/blackpanda.png"
+	},
+	"616ac23c2d5e6800167ed11e": {
+		"id": "616ac23c2d5e6800167ed11e",
+		"url_spotify": "https://open.spotify.com/artist/1dQK5HMaxZWCAwHD4a1l85?si=s-B-7MJoTVWm4cn3aY_qMQ",
+		"nombre": "Megane Mercury",
+		"url_youtube": "https://www.youtube.com/channel/UCW3hwltXayvoPSbuIFXeY5A/",
+		"url_twitter": "https://twitter.com/MeganeMercury",
+		"url_instagram": "https://www.instagram.com/meganemercury/",
+		"url_imagen": "https://i.ibb.co/FXr8BfZ/meganemercury.png"
+	},
+	"616ac2de2d5e6800167ed121": {
+		"id": "616ac2de2d5e6800167ed121",
+		"nombre": "Firmado, Carlota",
+		"url_spotify": "https://open.spotify.com/artist/67oRGgY9uFw1mH7XR9jvzI?si=1Kc4JptkSGu_d23zcuUS1g",
+		"url_instagram": "https://www.instagram.com/firmado.carlota/",
+		"url_youtube": "https://www.youtube.com/channel/UCuzEDYNG8OGP03Rk3uAtPxg",
+		"url_twitter": "https://twitter.com/FirmadoCarlota",
+		"url_imagen": "https://i.ibb.co/4mwmB2Q/firmadocarlota.png"
+	},
+	"616adf9484b84d0016708580": {
+		"id": "616adf9484b84d0016708580",
+		"nombre": "TAURO",
+		"url_spotify": "https://open.spotify.com/artist/2B76nxBwYVPBmWnqUqbsIN?si=-lMRXhKRSyqVy-tno_StZg",
+		"url_instagram": "https://www.instagram.com/tauromusic/",
+		"biografia": "",
+		"url_imagen": "https://i.ibb.co/Bf92q0f/tauro.png"
+	},
+	"616c6e1f05240c00168f311d": {
+		"id": "616c6e1f05240c00168f311d",
+		"url_youtube": "https://www.youtube.com/channel/UCVJuyk-pyu2fguxmCUh3SCw",
+		"nombre": "paulamún",
+		"url_spotify": "https://open.spotify.com/artist/5nIIZY7RJNGHDI2rs8bqAh?si=_pzYouNfSmS32gkvQnSqaw",
+		"url_instagram": "https://www.instagram.com/lapaulamun/",
+		"url_twitter": "https://twitter.com/lapaulamun",
+		"url_imagen": "https://i.ibb.co/tc3mrP4/paulamun.png"
+	},
+	"616c6ece05240c00168f3120": {
+		"id": "616c6ece05240c00168f3120",
+		"nombre": "Yago Ibars",
+		"url_spotify": "https://open.spotify.com/artist/1wkV8ec66pLnpsai02M6Mv?si=lT6Ny8VsShG6Rp7DyD1V6g",
+		"url_twitter": "https://twitter.com/YagoIbars",
+		"url_instagram": "https://www.instagram.com/yagoibars/",
+		"url_youtube": "https://www.youtube.com/c/YagoIbars/",
+		"url_imagen": "https://i.ibb.co/rpkW607/yagoibars.png"
+	},
+	"616c701205240c00168f3125": {
+		"id": "616c701205240c00168f3125",
+		"nombre": "Jordana B.",
+		"url_youtube": "https://www.youtube.com/channel/UCrQJzEAUWBRenH9HDP2yFcw/",
+		"url_spotify": "https://open.spotify.com/artist/3aqVNqgYvDz8VF5n6nJBDD?si=QWUMUxF-QaWRu19ybrQQKQ",
+		"url_twitter": "https://twitter.com/jordanabmusica",
+		"url_instagram": "https://www.instagram.com/jordana.bbe/",
+		"url_imagen": "https://i.ibb.co/JCYjgw0/jordanab.png"
+	},
+	"61785d8c9abf0a001617d173": {
+		"id": "61785d8c9abf0a001617d173",
+		"nombre": "aroa ay",
+		"url_instagram": "https://www.instagram.com/ay.aroa/",
+		"url_spotify": "https://open.spotify.com/artist/11VTXvScf8D82FdfeUp8UC?si=46TP27rKR96ghaM42ioh5g",
+		"url_youtube": "https://www.youtube.com/channel/UCcuTrAe5iPLvrbRiTJgvF3A",
+		"url_imagen": "https://i.ibb.co/D7Mfw4B/ayaroa.png"
+	},
+	"61785e1b9abf0a001617d175": {
+		"id": "61785e1b9abf0a001617d175",
+		"nombre": "bloodstein",
+		"url_spotify": "https://open.spotify.com/artist/4zSSxRkfPyASwmON2Nlctw?si=tC-cEGf9Rg-9qxX_SIUlIg",
+		"url_youtube": "https://www.youtube.com/channel/UC9bo1TgFhYVRsU5rtkNAJXQ",
+		"url_instagram": "https://www.instagram.com/vinierr/",
+		"url_imagen": "https://i.ibb.co/VNL2vhD/bloodstein.png"
+	},
+	"61785f0e9abf0a001617d177": {
+		"id": "61785f0e9abf0a001617d177",
+		"nombre": "keezyporta",
+		"url_spotify": "https://open.spotify.com/artist/59a1bsEPllg9vAM5ZdZtBS?si=_HlQeQ7US2u07lMXV5ELgQ",
+		"url_twitter": "https://twitter.com/keezyporta",
+		"url_youtube": "https://www.youtube.com/c/keezyporta",
+		"url_instagram": "https://www.instagram.com/keezyporta/",
+		"url_imagen": "https://i.ibb.co/f2Strp4/keezyporta.png"
+	},
+	"61785f909abf0a001617d179": {
+		"id": "61785f909abf0a001617d179",
+		"url_youtube": "https://www.youtube.com/channel/UCMdcAbzUyZhwY0Zng4DyD_Q/featured",
+		"nombre": "agosto",
+		"url_spotify": "https://open.spotify.com/artist/0WSxxeaRyEijDqsE2TziXK?si=xsfOYNDTTE6E5ZVfDEIpRA",
+		"url_instagram": "https://www.instagram.com/_agosto__/",
+		"url_twitter": "https://twitter.com/agostoband",
+		"url_imagen": "https://i.ibb.co/4jwW96Z/agosto.png"
+	},
+	"617860319abf0a001617d17b": {
+		"id": "617860319abf0a001617d17b",
+		"url_youtube": "https://www.youtube.com/channel/UCN8QRXCi9DfKv3kR5mfGyVQ",
+		"nombre": "mentira",
+		"url_spotify": "https://open.spotify.com/artist/025KCrdT7Sl83OzsBfEhtu?si=JueK0u_bQpSqXlUWqAlZKA",
+		"url_twitter": "https://twitter.com/somosmentira",
+		"url_instagram": "https://www.instagram.com/mentira.es/",
+		"url_imagen": "https://i.ibb.co/JmZJLwm/mentira.png"
+	},
+	"6192bb6efa9ba400160f44e8": {
+		"id": "6192bb6efa9ba400160f44e8",
+		"nombre": "La Paloma",
+		"url_spotify": "https://open.spotify.com/artist/6poevqCIGOy8886WKNTHkv?si=P0lvSoAhS1WHdpHlKGanVw",
+		"url_twitter": "https://twitter.com/lapalomavive",
+		"url_instagram": "https://www.instagram.com/lapalomavive/",
+		"url_youtube": "https://www.youtube.com/channel/UCB_DNVtj53h_Rf_HPgERMwQ/",
+		"url_imagen": "https://i.ibb.co/gdLh1Fq/lapaloma.png"
+	},
+	"6192bbdffa9ba400160f44ea": {
+		"id": "6192bbdffa9ba400160f44ea",
+		"nombre": "Massaviu",
+		"url_spotify": "https://open.spotify.com/artist/0du3FPmKtQ8vfsmGYVzdFY?si=EJR9gebVSOy62lI8gacCaQ",
+		"url_youtube": "https://www.youtube.com/channel/UCh1_-QpgzIdG-3QfCMfZi6w/featured",
+		"url_instagram": "https://www.instagram.com/massaviu/",
+		"url_twitter": "https://twitter.com/massaviu",
+		"url_imagen": "https://i.ibb.co/gz95Qk5/massiaviu.png"
+	},
+	"6192bc65fa9ba400160f44ec": {
+		"id": "6192bc65fa9ba400160f44ec",
+		"nombre": "Nueve Desconocidos",
+		"url_spotify": "https://open.spotify.com/artist/0mPa3r1BmIFwG3YxWuqxE4?si=lX-6BwrhS4SQRDdiFSLihA",
+		"url_youtube": "https://www.youtube.com/channel/UCYZQF-pVisq8Wcb8Ln_Xrxw",
+		"url_instagram": "https://www.instagram.com/nuevedesconocidos/",
+		"url_twitter": "https://twitter.com/9desconocidos",
+		"url_imagen": "https://i.ibb.co/SKJkMnH/nuevedesconocidos.png"
+	},
+	"6192bcfcfa9ba400160f44ee": {
+		"id": "6192bcfcfa9ba400160f44ee",
+		"nombre": "Jimena Amarillo",
+		"url_spotify": "https://open.spotify.com/artist/29cPgYFoxExwmptUrlnYmm?si=ZT4obz94QvmqKSflamrABw",
+		"url_youtube": "https://www.youtube.com/channel/UCK2fkBxKZj62k6gJYTvY36w",
+		"url_instagram": "https://www.instagram.com/jimenamarillo/",
+		"url_twitter": "https://twitter.com/jimenamarillo",
+		"url_imagen": "https://i.ibb.co/BqtGfwf/jimenaamarillo.png"
+	},
+	"6192bd7ffa9ba400160f44f0": {
+		"id": "6192bd7ffa9ba400160f44f0",
+		"nombre": "Ana Webb",
+		"url_spotify": "https://open.spotify.com/artist/24xDiU4p49s4K1ztiL3z4z?si=IlfFMFSyQL2yHWDZRUWY9w",
+		"url_youtube": "https://www.youtube.com/channel/UC0alFs2Mw3fnh2bqtNe6G4w",
+		"url_instagram": "https://www.instagram.com/anaw3bb/",
+		"url_twitter": "https://twitter.com/ana_webb12",
+		"url_imagen": "https://i.ibb.co/YX1TqZX/anawebb.png"
+	},
+	"61af3540588c38001612cd9c": {
+		"id": "61af3540588c38001612cd9c",
+		"nombre": "La Plata",
+		"url_youtube": "https://www.youtube.com/c/LaPlataSanta/videos",
+		"url_spotify": "https://open.spotify.com/artist/3oD0OVwOhvLSTvd2fOFCuS?si=b5cr96CCRXeSvQrgmL3H3w",
+		"url_instagram": "https://www.instagram.com/laplatasanta/",
+		"url_imagen": "https://i.ibb.co/SQYyd3b/laplata.png"
+	},
+	"61af3646588c38001612cd9e": {
+		"id": "61af3646588c38001612cd9e",
+		"nombre": "Apartamentos Acapulco",
+		"url_youtube": "https://www.youtube.com/c/APARTAMENTOSACAPULCOOficial/videos",
+		"url_spotify": "https://open.spotify.com/artist/5MJEbh71qd0GTKQdKko3TT?si=WEXp7Vl8RvKw2XwGxP_Cgg",
+		"url_twitter": "https://twitter.com/aptos_acapulco",
+		"url_instagram": "https://www.instagram.com/apartamentos_acapulco/",
+		"url_imagen": "https://i.ibb.co/92qWvXn/apartamentosacapulco.png"
+	},
+	"61af385c588c38001612cda0": {
+		"id": "61af385c588c38001612cda0",
+		"nombre": "Mike Teller",
+		"url_youtube": "https://www.youtube.com/channel/UC78FbTA0S5ApGwpbvuht20w",
+		"url_spotify": "https://open.spotify.com/artist/1tOU5AlMiVirxEIaw97pBl?si=wOvPNo0nQRS3UljdVw16QA",
+		"url_instagram": "https://www.instagram.com/_miketeller/",
+		"url_imagen": "https://i.ibb.co/M9nHMnV/miketeller.png"
+	},
+	"61af3a2a588c38001612cda2": {
+		"id": "61af3a2a588c38001612cda2",
+		"nombre": "Teo Planell",
+		"url_youtube": "https://www.youtube.com/channel/UCnyi1K9BwX_BKxFoi0Z3xZw",
+		"url_spotify": "https://open.spotify.com/artist/3Mhaefda5u1LJlRWdJgqz4?si=2WG7E2H_TLOW2wlgPkSB1w",
+		"url_twitter": "https://twitter.com/teoplanell",
+		"url_instagram": "https://www.instagram.com/teoplanell/",
+		"url_imagen": "https://i.ibb.co/xCSV5Ny/teoplanell.png"
+	},
+	"61af3b05588c38001612cda4": {
+		"id": "61af3b05588c38001612cda4",
+		"nombre": "Leftee",
+		"url_youtube": "https://www.youtube.com/channel/UCCKfKh3WH46-8vRgyDKmJZA/videos",
+		"url_spotify": "https://open.spotify.com/artist/0eXkAv0LeZb2uhZnqPSU3E?si=F3J8hw_5SGuoYNXKy-98yQ",
+		"url_twitter": "https://twitter.com/leftee27",
+		"url_instagram": "https://www.instagram.com/elnietodelaruta/",
+		"url_imagen": "https://i.ibb.co/vVpXys5/leftee.png"
+	},
+	"61af3c10588c38001612cda6": {
+		"id": "61af3c10588c38001612cda6",
+		"nombre": "Ralphie Choo",
+		"url_imagen": "https://i.ibb.co/sgLhRJg/ralphiechoo.png",
+		"url_instagram": "https://www.instagram.com/ralphiechoo/",
+		"url_spotify": "https://open.spotify.com/artist/5qjnPRE33rMgYAxIjGUrI7?si=E4xrmUAFTdWhnUEfK9EPvA",
+		"url_youtube": "https://www.youtube.com/channel/UCwkxx3d9UajKTh5dOmQK_Eg/videos"
+	},
+	"61af3d1b588c38001612cda8": {
+		"id": "61af3d1b588c38001612cda8",
+		"nombre": "Radio Palmer",
+		"url_youtube": "https://twitter.com/radio_palmer",
+		"url_spotify": "https://open.spotify.com/artist/5ERh7l2QU2n5g0YxrHATe3?si=FDxadclaTKmbNMginfXfWw",
+		"url_twitter": "https://twitter.com/radio_palmer",
+		"url_instagram": "https://www.instagram.com/p/CWbUAOoKluI/",
+		"url_imagen": "https://i.ibb.co/y6zKr3R/radiopalmer.png"
+	},
+	"61af3e15588c38001612cdaa": {
+		"id": "61af3e15588c38001612cdaa",
+		"nombre": "tosho",
+		"url_youtube": "https://www.youtube.com/channel/UCQndIfNqQg9pGZdTzWkDULA/videos",
+		"url_spotify": "https://open.spotify.com/artist/6F0C5JNe7WrFOuDc0rUOtw?si=7AZIaL5kQ9ajprjoZB1ejw",
+		"url_twitter": "https://twitter.com/toshopop",
+		"url_instagram": "https://www.instagram.com/p/CVu6dfxIaU8/",
+		"url_imagen": "https://i.ibb.co/3dJWLP2/tosho.png"
+	},
+	"61af3ef2588c38001612cdac": {
+		"id": "61af3ef2588c38001612cdac",
+		"nombre": "Verto",
+		"url_youtube": "https://www.youtube.com/channel/UCdfWa8Z5RmACwvEXUG-vxOQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/6boUbYz1NlPNeXGDtAmA8q?si=eqykS80hS7OOozydZkWmjQ",
+		"url_twitter": "https://twitter.com/VertoTemazos",
+		"url_instagram": "https://www.instagram.com/vertotemazos/",
+		"url_imagen": "https://i.ibb.co/1R52LHw/verto.png"
+	},
+	"61af3ff1588c38001612cdae": {
+		"id": "61af3ff1588c38001612cdae",
+		"nombre": "ODDLIQUOR",
+		"url_youtube": "https://www.youtube.com/c/oddliquor/videos",
+		"url_spotify": "https://open.spotify.com/artist/1rmlkMXVf5f6ilIVhjow34?si=X0_qR1VxRJub40Du0fT9lg",
+		"url_instagram": "https://www.instagram.com/oddliquor/",
+		"url_imagen": "https://i.ibb.co/FJFwK5W/oddliquor.png"
+	},
+	"61af40db588c38001612cdb0": {
+		"id": "61af40db588c38001612cdb0",
+		"nombre": "Penélope",
+		"url_youtube": "https://www.youtube.com/channel/UCq2YFHmHoOuFX12hwXLyXYw/videos",
+		"url_spotify": "https://open.spotify.com/artist/6SHQwrGBd6PmgME2zFXNtr?si=OXIIXLP_THef0mIk-1vzDQ",
+		"url_twitter": "https://twitter.com/Penelopeytal",
+		"url_instagram": "https://www.instagram.com/p/CQBMttNJ4jl/",
+		"url_imagen": "https://i.ibb.co/CmK1Lp1/penelope.png"
+	},
+	"61af42b3588c38001612cdb2": {
+		"id": "61af42b3588c38001612cdb2",
+		"nombre": "exit303",
+		"url_youtube": "https://www.youtube.com/channel/UCPorOhyftfJ61vpNqzBHnmQ",
+		"url_spotify": "https://open.spotify.com/artist/3B77kZJvJq4OR9qsC7UXNW?si=nRHNvhtCQT-QId4IXjPv6Q",
+		"url_twitter": "https://twitter.com/exit303_",
+		"url_instagram": "https://www.instagram.com/exit303_/",
+		"url_imagen": "https://i.ibb.co/4VYdV1J/exti303.png"
+	},
+	"61af43d8588c38001612cdb4": {
+		"id": "61af43d8588c38001612cdb4",
+		"nombre": "HOLOGRAMMA",
+		"url_youtube": "https://www.youtube.com/channel/UCrFiltqJxrcUPTH1a1C1QZw/videos",
+		"url_spotify": "https://open.spotify.com/artist/7akSnRWtc7SsxdZSq0Evkm?si=3F1mL8KSSee8u3Vmt6MNpQ",
+		"url_instagram": "https://www.instagram.com/hologramma___/",
+		"url_imagen": "https://i.ibb.co/wJnrrcz/hologramma.png"
+	},
+	"61af456f588c38001612cdb6": {
+		"id": "61af456f588c38001612cdb6",
+		"nombre": "Chicxs Rosas",
+		"url_youtube": "https://www.youtube.com/channel/UCYVPeEWlvS15DiocKUE47lg/videos",
+		"url_spotify": "https://open.spotify.com/artist/1mshcgqnwnFMAutA66er7z?si=wKOkfWcPQVyXF_mYOabx_g",
+		"url_twitter": "https://twitter.com/chicxs_rosas",
+		"url_instagram": "https://www.instagram.com/chicxs.rosas/",
+		"url_imagen": "https://i.ibb.co/sg5cHb7/chicxsrosas.png"
+	},
+	"61af46d1588c38001612cdb8": {
+		"id": "61af46d1588c38001612cdb8",
+		"nombre": "Irenegarry",
+		"url_youtube": "https://www.youtube.com/channel/UCcKtM9hIKlNth_B8UBLrAgg/videos",
+		"url_spotify": "https://open.spotify.com/artist/5grzJI0lXUO8L4yMw6BwEB?si=NeE8xQpEQg27FbxAUX6rfA",
+		"url_twitter": "https://twitter.com/irenegarry",
+		"url_instagram": "https://www.instagram.com/irenegarry/",
+		"url_imagen": "https://i.ibb.co/6mBwgWM/irenegarry.png"
+	},
+	"61af47c6588c38001612cdba": {
+		"id": "61af47c6588c38001612cdba",
+		"nombre": "Menta",
+		"url_spotify": "https://open.spotify.com/artist/6LlGOJmoJ97bhGx3UX2URn?si=O9_knpZCQUuk5ePnBotFzQ",
+		"url_twitter": "https://twitter.com/merentamenta",
+		"url_imagen": "https://i.ibb.co/mSxByh1/menta.png",
+		"url_instagram": "https://www.instagram.com/merentamenta/"
+	},
+	"61af48e6588c38001612cdbc": {
+		"id": "61af48e6588c38001612cdbc",
+		"nombre": "Bearoid",
+		"url_youtube": "https://www.youtube.com/c/BearoidMusic/videos",
+		"url_spotify": "https://open.spotify.com/artist/2qxjB0LkbwvgLxmXN31Gp4?si=ahdbD4-LTeq3ozORV2yqbg",
+		"url_twitter": "https://twitter.com/bearoid",
+		"url_instagram": "https://www.instagram.com/bearoid/",
+		"url_imagen": "https://i.ibb.co/6WDtVms/bearoid.png"
+	},
+	"61af491e588c38001612cdbd": {
+		"id": "61af491e588c38001612cdbd",
+		"nombre": "Casero",
+		"url_youtube": "https://www.youtube.com/channel/UCqR7IvpPb3c3UddjtCFNRMg",
+		"url_spotify": "https://open.spotify.com/artist/6RXmHX7FgxZz6ycoC6IgPy?si=UTlouCCHR6-eER-iMM0JAg",
+		"url_twitter": "https://twitter.com/Caserosincasa",
+		"url_instagram": "https://www.instagram.com/caserosincasa/",
+		"url_imagen": "https://i.ibb.co/Hh2c96c/casero.png"
+	},
+	"61af49f6588c38001612cdbf": {
+		"id": "61af49f6588c38001612cdbf",
+		"nombre": "Amor Butano",
+		"url_youtube": "https://www.youtube.com/channel/UCT7zTN-IWF6CRaAjLUEvVuQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/1obBP2Y8LklbJCXIbVD74p?si=H-7NgYjoQDehLj3DhMqdDQ",
+		"url_twitter": "https://twitter.com/AmorButano",
+		"url_instagram": "https://www.instagram.com/amorbutano/",
+		"url_imagen": "https://i.ibb.co/wyj1Kd2/amorbutano.png"
+	},
+	"61af4b78588c38001612cdc1": {
+		"id": "61af4b78588c38001612cdc1",
+		"nombre": "Gutinho",
+		"url_youtube": "https://www.youtube.com/channel/UCZkqtaKj2eHEojR8U5h2qbQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/5xneBcnKxnlHnspytUfcyE?si=Gt1Gk0vBTWedbTt4jjSRxg",
+		"url_twitter": "https://twitter.com/Gutinho______",
+		"url_instagram": "https://www.instagram.com/gutinho______/",
+		"url_imagen": "https://i.ibb.co/V3H9s7v/gutinho.png"
+	},
+	"61af4c41588c38001612cdc3": {
+		"id": "61af4c41588c38001612cdc3",
+		"nombre": "Muro María",
+		"url_youtube": "https://www.youtube.com/channel/UCZq-cFZT934M5RDcnAQ45pA/videos",
+		"url_spotify": "https://open.spotify.com/artist/5INts4xs8Jf1Rpnkd6Zd2Y?si=3qXOd2C8Qiuizw9QIU1quQ",
+		"url_twitter": "https://twitter.com/MuroMaria_",
+		"url_instagram": "https://www.instagram.com/muromaria.mp3/",
+		"url_imagen": "https://i.ibb.co/4ZTqkzx/muromaria.png"
+	},
+	"61af4d2c588c38001612cdc5": {
+		"id": "61af4d2c588c38001612cdc5",
+		"nombre": "Grande Amore",
+		"url_spotify": "https://open.spotify.com/artist/1FVM2KsOjbVwhAYApEhSzQ?si=Xk9DLRbzRYquU-_Q23IYXA",
+		"url_youtube": "https://www.youtube.com/c/ernierecords/videos",
+		"url_twitter": "https://twitter.com/Grande_Amore_OG",
+		"url_instagram": "https://www.instagram.com/grande.amore.grande.amore/",
+		"url_imagen": "https://i.ibb.co/dmqjr0T/grandeamore.png"
+	},
+	"61af4e0e588c38001612cdc7": {
+		"id": "61af4e0e588c38001612cdc7",
+		"nombre": "Teefour",
+		"url_youtube": "https://www.youtube.com/channel/UC6PlLW2HU0IhfzPuukOiPjQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/5D1H4rLkQE1AVX9DeyEAge?si=30CV6ynsRUiMCkrQS9LnYw",
+		"url_instagram": "https://www.instagram.com/teefour.eu/",
+		"url_imagen": "https://i.ibb.co/7XR0989/teefour.png"
+	},
+	"61af4f11588c38001612cdc9": {
+		"id": "61af4f11588c38001612cdc9",
+		"nombre": "Claudio Montana",
+		"url_youtube": "https://www.youtube.com/channel/UCz9T8rW0B-jxChhfYjA3rAA/videos",
+		"url_spotify": "https://open.spotify.com/artist/3Ecw2aaAQ3rqO3bH9pcN7d?si=sw9_uz9vRYyol3AkgIeEdQ",
+		"url_twitter": "https://twitter.com/quefeoelprado",
+		"url_instagram": "https://www.instagram.com/claudio_safdie/",
+		"url_imagen": "https://i.ibb.co/SRmQXZV/claudiomontana.png"
+	},
+	"61af4fd7588c38001612cdcb": {
+		"id": "61af4fd7588c38001612cdcb",
+		"nombre": "Juanpalitoschinos",
+		"url_youtube": "https://www.youtube.com/c/juanpalitoschinosmusic/videos",
+		"url_spotify": "https://open.spotify.com/artist/2QznoP8SaZXOHkgZfvHlZa?si=tekTphyhQUuFJ9dLCntTAg",
+		"url_twitter": "https://twitter.com/jpalitoschinos",
+		"url_instagram": "https://www.instagram.com/juanpalitoschinos/",
+		"url_imagen": "https://i.ibb.co/RBWn4T9/juanpalitoschinos.png"
+	},
+	"61af5096588c38001612cdcd": {
+		"id": "61af5096588c38001612cdcd",
+		"nombre": "vangoura",
+		"url_spotify": "https://open.spotify.com/artist/0f96nYGYNRWeEYi8avVG3g?si=uP0HKTuoQ4-lhAsyBKdYyg",
+		"url_youtube": "https://www.youtube.com/c/vangoura/videos",
+		"url_twitter": "https://twitter.com/vangoura_",
+		"url_instagram": "https://www.instagram.com/vangoura_/",
+		"url_imagen": "https://i.ibb.co/TvNhnsx/vangoura.png"
+	},
+	"61af5181588c38001612cdcf": {
+		"id": "61af5181588c38001612cdcf",
+		"nombre": "Alavedra",
+		"url_youtube": "https://www.youtube.com/c/theyellowgate/videos",
+		"url_spotify": "https://open.spotify.com/artist/04LW73s0C1fhu5KezxtXtt?si=uI0BvdXESxW0EK0p9IcSBQ",
+		"url_twitter": "https://twitter.com/Alavedramp3",
+		"url_instagram": "https://www.instagram.com/alavedramp3/",
+		"url_imagen": "https://i.ibb.co/9ZNftBV/alavedra.png"
+	},
+	"61af5260588c38001612cdd1": {
+		"id": "61af5260588c38001612cdd1",
+		"nombre": "Cabiria",
+		"url_youtube": "https://www.youtube.com/channel/UCKEgozMtncwA1l1-I3XQO_g/videos",
+		"url_spotify": "https://open.spotify.com/artist/2y7OtEBQuQCeFh2a8bYZVC?si=aB2ThFT2Q4CCdI6z6CXMjw",
+		"url_twitter": "https://twitter.com/kaleidoscopeves",
+		"url_instagram": "https://www.instagram.com/cabiriamix/",
+		"url_imagen": "https://i.ibb.co/ZNgTnz9/cabiria.png"
+	},
+	"61af530b588c38001612cdd3": {
+		"id": "61af530b588c38001612cdd3",
+		"nombre": "Valdivia",
+		"url_youtube": "https://www.youtube.com/channel/UCWUtYS0PujfAHihi54fNgzQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/622Gl6V4TWg2yWdsSsnx3q?si=shIUd94WSE6ZCLMwCcWnmQ",
+		"url_twitter": "https://twitter.com/soyvaldiviav",
+		"url_instagram": "https://www.instagram.com/valdivia____/",
+		"url_imagen": "https://i.ibb.co/xCxzZH0/valdivia.png"
+	},
+	"61af53d4588c38001612cdd5": {
+		"id": "61af53d4588c38001612cdd5",
+		"nombre": "Marcos y Molduras",
+		"url_youtube": "https://www.youtube.com/channel/UCv0hu7YVceVRsETAKW6Ut6g/videos",
+		"url_spotify": "https://open.spotify.com/artist/0XW0lEqEFAhOYFTP9Z7mXr?si=Oq4MjM7VTLWlN4NegTPAgA",
+		"url_twitter": "https://twitter.com/marcosymoldurs",
+		"url_instagram": "https://www.instagram.com/marcosymolduras/",
+		"url_imagen": "https://i.ibb.co/0JLbkg5/marcosymolduras.png"
+	},
+	"61af54f2588c38001612cdd7": {
+		"id": "61af54f2588c38001612cdd7",
+		"nombre": "Hnos Munoz",
+		"url_youtube": "https://www.youtube.com/c/HnosMunoz/videos",
+		"url_spotify": "https://open.spotify.com/artist/4ePbu0sj0JjaPgGkoRDDdU?si=E9rEaZZYQaGE280JWVv2Eg",
+		"url_instagram": "https://www.instagram.com/hnosmunoz_/",
+		"url_imagen": "https://i.ibb.co/kqvthyM/hnosmunoz.png"
+	},
+	"61af5631588c38001612cdda": {
+		"id": "61af5631588c38001612cdda",
+		"nombre": "trashi",
+		"url_spotify": "https://open.spotify.com/artist/4NCT7ucfttKL0FUmd3zllQ?si=YGumS8ddQpmVAZB3ckBZnQ",
+		"url_youtube": "https://www.youtube.com/channel/UCzj703V19_dndCq1Sekwv9w/videos",
+		"url_twitter": "https://twitter.com/unpocotrashi",
+		"url_instagram": "https://www.instagram.com/p/CQtv5xcjaju/",
+		"url_imagen": "https://i.ibb.co/pjt5gt7/trashi.png"
+	},
+	"61af7513588c38001612cddc": {
+		"id": "61af7513588c38001612cddc",
+		"nombre": "Plasaporros",
+		"url_youtube": "https://www.youtube.com/c/plasaporros",
+		"url_spotify": "https://open.spotify.com/artist/7mKzx4MI33Oh7Iwax45huo?si=rl5mDPM4QyWSk2MoyuGYzg",
+		"url_twitter": "https://twitter.com/plasaporros",
+		"url_instagram": "https://www.instagram.com/plasaporros/",
+		"url_imagen": "https://i.ibb.co/kqwTffb/plasaporros.png"
+	},
+	"61af7540588c38001612cddd": {
+		"id": "61af7540588c38001612cddd",
+		"nombre": "VAN17INO6",
+		"url_spotify": "https://open.spotify.com/artist/1KvmfQHAXGVqhTeFJRAGpT?si=FK_Kg6m4SHWzrL_MHa_BTA",
+		"url_instagram": "https://www.instagram.com/van17ino6/",
+		"url_imagen": "https://i.ibb.co/kGsb5vZ/van17ino6.png"
+	},
+	"61af7660588c38001612cddf": {
+		"id": "61af7660588c38001612cddf",
+		"nombre": "Fresquito y Mango",
+		"url_youtube": "https://www.youtube.com/c/FresquitoyMango/videos",
+		"url_spotify": "https://open.spotify.com/artist/1fURW117sgaPpgIoz8YLXW?si=-qxcJXNuRCufHAh5sHldNg",
+		"url_instagram": "https://www.instagram.com/fresquitoymango/",
+		"url_imagen": "https://i.ibb.co/GvQndXM/fresquitoymango.png"
+	},
+	"61af775a588c38001612cde1": {
+		"id": "61af775a588c38001612cde1",
+		"nombre": "Kora",
+		"url_youtube": "https://www.youtube.com/c/Korast/videos",
+		"url_spotify": "https://open.spotify.com/artist/3ZxaYY2eYNWxg8v1s2k6JD?si=EZG1qdFiSS-ZG35_WwJ8CQ",
+		"url_instagram": "https://www.instagram.com/kora.st/",
+		"url_imagen": "https://i.ibb.co/3vKnnQz/kora.png"
+	},
+	"61af7848588c38001612cde3": {
+		"id": "61af7848588c38001612cde3",
+		"nombre": "L'haine",
+		"url_youtube": "https://www.youtube.com/channel/UCAhuy8Cdu8LVqx0SEJHPP-w/videos",
+		"url_spotify": "https://open.spotify.com/artist/7tXH4uI7BOE7hFBazlah0q?si=6yCrFAswQyKOTQQXmOJVdg",
+		"url_twitter": "https://twitter.com/odiosiempregana",
+		"url_instagram": "https://www.instagram.com/elodiosiempregana/",
+		"url_imagen": "https://i.ibb.co/m4TWRLC/lhaine.png"
+	},
+	"61af799a588c38001612cde5": {
+		"id": "61af799a588c38001612cde5",
+		"nombre": "Negro Bates",
+		"url_spotify": "https://open.spotify.com/artist/54R2kpfErocNAM5Z9Kq6JR?si=eM6a93OaSSqqQrRH7iF6Lg",
+		"url_twitter": "https://twitter.com/NegroBates",
+		"url_instagram": "https://www.instagram.com/negrobates/",
+		"url_imagen": "https://i.ibb.co/4Jj2ZFD/negrobates.png"
+	},
+	"61af7b52588c38001612cde6": {
+		"id": "61af7b52588c38001612cde6",
+		"nombre": "Colectivo Da Silva",
+		"url_youtube": "",
+		"url_spotify": "https://open.spotify.com/artist/7h2HIXXVcZ6UPkqlCa2QZY?si=qulMVsy6TwiLigtKz74Rhg",
+		"url_twitter": "https://twitter.com/ColecDaSilva",
+		"url_instagram": "https://www.instagram.com/colectivo.da.silva/",
+		"url_imagen": "https://i.ibb.co/q00yNM6/colectivodasilva.png"
+	},
+	"61af7b8c588c38001612cde7": {
+		"id": "61af7b8c588c38001612cde7",
+		"nombre": "dani",
+		"url_youtube": "https://www.youtube.com/channel/UCyZ_n_7I8RlaJBM8MBWJrJA/videos",
+		"url_spotify": "https://open.spotify.com/artist/4sYXzPulKYxOYuDKS1px8Y?si=2QmMne-WRVOsDVLeAC2sUg",
+		"url_instagram": "https://www.instagram.com/danic0stas/",
+		"url_imagen": "https://i.ibb.co/gTtNQ74/danicostas.png"
+	},
+	"61af7cab588c38001612cde9": {
+		"id": "61af7cab588c38001612cde9",
+		"nombre": "Laborde",
+		"url_spotify": "https://open.spotify.com/artist/4fcpKkE0EX1hLk8hlCtVJ5?si=ptgBDGfRS-WR99NKzP3lFw",
+		"url_twitter": "https://twitter.com/labordepsd",
+		"url_instagram": "https://www.instagram.com/laborde.psd/",
+		"url_imagen": "https://i.ibb.co/MkXDPxV/laborde.png"
+	},
+	"61af7d89588c38001612cdeb": {
+		"id": "61af7d89588c38001612cdeb",
+		"nombre": "VVV [Trippin'you]",
+		"url_youtube": "https://www.youtube.com/c/VVVTrippinyou/videos",
+		"url_spotify": "https://open.spotify.com/artist/7tszuN9emjCCsC7kccXTFU?si=QjIwPoywSeO4UlL-8Z5Hkg",
+		"url_twitter": "https://twitter.com/trippinyouvvv",
+		"url_instagram": "https://www.instagram.com/trippinyou.vvv/",
+		"url_imagen": "https://i.ibb.co/4sXGDZW/vvv.png"
+	},
+	"61af7e58588c38001612cded": {
+		"id": "61af7e58588c38001612cded",
+		"nombre": "shego",
+		"url_youtube": "https://www.youtube.com/channel/UC7dlx40Ws7M2pS_qrZwK1Fg/videos",
+		"url_twitter": "https://twitter.com/shegomanda",
+		"url_spotify": "https://open.spotify.com/artist/1DiDa1DfTjldKJQeonyP33?si=94rhq7SsROyC3fR_YqI13A",
+		"url_instagram": "https://www.instagram.com/shegomanda/",
+		"url_imagen": "https://i.ibb.co/YZphwMf/shego.png"
+	},
+	"61af7f2c588c38001612cdef": {
+		"id": "61af7f2c588c38001612cdef",
+		"nombre": "Gala Nell",
+		"url_youtube": "https://www.youtube.com/c/galanell/videos",
+		"url_spotify": "https://open.spotify.com/artist/4CVNESQIOFNvurriZVBarY?si=tgwbybh5SIi13udiiKkEXA",
+		"url_twitter": "https://twitter.com/galanellx",
+		"url_instagram": "https://www.instagram.com/galanellx/",
+		"url_imagen": "https://i.ibb.co/qW2yWhf/galanell.png"
+	},
+	"61af7ff5588c38001612cdf1": {
+		"id": "61af7ff5588c38001612cdf1",
+		"nombre": "Cristina Len",
+		"url_youtube": "https://www.instagram.com/cristinalen_/",
+		"url_spotify": "https://open.spotify.com/artist/5lgIxzmjmsIDKBOUs999xD?si=LV3_G4-oTTWt_saf6JASEA",
+		"url_twitter": "https://twitter.com/lacristinalen",
+		"url_instagram": "https://www.instagram.com/cristinalen_/",
+		"url_imagen": "https://i.ibb.co/5Lq3brC/cristinalen.png"
+	},
+	"61af80b9588c38001612cdf3": {
+		"id": "61af80b9588c38001612cdf3",
+		"nombre": "AMORE",
+		"url_youtube": "https://www.youtube.com/channel/UCn0PWrjyia_yYVNXrzJtbng/videos",
+		"url_spotify": "https://open.spotify.com/artist/2JfbhY0uEDLi1d89RzdU9S?si=2Y9-gu5PQg-p5QABlW2pFw",
+		"url_twitter": "https://twitter.com/_tqamore",
+		"url_instagram": "https://www.instagram.com/tqamore/",
+		"url_imagen": "https://i.ibb.co/T8FgHhh/amore.png"
+	},
+	"61af816e588c38001612cdf5": {
+		"id": "61af816e588c38001612cdf5",
+		"nombre": "Sofía Amores",
+		"url_youtube": "https://www.youtube.com/channel/UCbKSLw58zgl7VhiKnpEGjEQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/6jXX146p0AOeMFnndQH3cQ?si=6Lwdi6g1RLiScxpkKksq7Q",
+		"url_twitter": "https://twitter.com/sofia_amores_",
+		"url_instagram": "https://www.instagram.com/sofia.amores_/",
+		"url_imagen": "https://i.ibb.co/FscYGwW/sofiamores.png"
+	},
+	"61af822b588c38001612cdf7": {
+		"id": "61af822b588c38001612cdf7",
+		"nombre": "Shadejay",
+		"url_youtube": "https://www.youtube.com/channel/UCJ8ttVZpxtKr6SIw5wDWxEg/videos",
+		"url_spotify": "https://open.spotify.com/artist/5wmg3uz0BUC23NplYdlaUO?si=5wW_ZiZtQJ2ITpeRS_5SrA",
+		"url_twitter": "https://twitter.com/shadejay_",
+		"url_instagram": "https://www.instagram.com/shadejay_/",
+		"url_imagen": "https://i.ibb.co/gZc226F/shadejay.png"
+	},
+	"61af839d588c38001612cdf9": {
+		"id": "61af839d588c38001612cdf9",
+		"nombre": "Biela",
+		"url_youtube": "https://www.youtube.com/user/limbostarr/videos",
+		"url_spotify": "https://open.spotify.com/artist/3V4eTmIv1fY1zTRSOFOjEH?si=PvkGRCLCRd2s0HvCMEnqHA",
+		"url_twitter": "https://twitter.com/BielaGrupo",
+		"url_instagram": "https://www.instagram.com/bielagrupo/",
+		"url_imagen": "https://i.ibb.co/8MSZtCq/biela.png"
+	},
+	"61af84a2588c38001612cdfb": {
+		"id": "61af84a2588c38001612cdfb",
+		"nombre": "Kepa",
+		"url_youtube": "https://www.youtube.com/c/kepabenz/videos",
+		"url_spotify": "https://open.spotify.com/artist/641uUz4loRaQhEkuFOIefT?si=F5yKMbdpQ-iGzqEOt6n3PA",
+		"url_twitter": "https://twitter.com/kepabenz",
+		"url_instagram": "https://www.instagram.com/kepabenz/",
+		"url_imagen": "https://i.ibb.co/FY0XFQb/kepa.png"
+	},
+	"61af8569588c38001612cdfd": {
+		"id": "61af8569588c38001612cdfd",
+		"nombre": "rusowsky",
+		"url_youtube": "https://www.youtube.com/channel/UCUWsoFzN8u06K5NJ7E2d91g/videos",
+		"url_spotify": "https://open.spotify.com/artist/1XEVu7gdRFfzEFqsPrancH?si=8MWgKtxoRJinUfie2DSJCw",
+		"url_twitter": "https://twitter.com/_rusowsky",
+		"url_instagram": "https://www.instagram.com/_rusowsky/",
+		"url_imagen": "https://i.ibb.co/DV4qFqJ/rusowsky.png"
+	},
+	"61af863b588c38001612cdff": {
+		"id": "61af863b588c38001612cdff",
+		"nombre": "Judeline",
+		"url_spotify": "https://open.spotify.com/artist/1H6X7yhnXZg73f9bssaj1Q?si=lFDMcIrFSZKOXFOptwSfEQ",
+		"url_youtube": "https://www.youtube.com/channel/UCivaiE8RNombvmGOrcF1YBA/videos",
+		"url_twitter": "https://twitter.com/judelinex",
+		"url_instagram": "https://www.instagram.com/judeli.ne/",
+		"url_imagen": "https://i.ibb.co/SrXNDks/judeline.png"
+	},
+	"61af86db588c38001612ce01": {
+		"id": "61af86db588c38001612ce01",
+		"nombre": "Mayo",
+		"url_spotify": "https://open.spotify.com/artist/6tXAyxP95UadYcNOS46bG4?si=kdGhpT99RcmTL9-5Pwzc1g",
+		"url_instagram": "https://www.instagram.com/mayomojo/",
+		"url_imagen": "https://i.ibb.co/K07FMV4/mayo.png"
+	},
+	"61af8790588c38001612ce02": {
+		"id": "61af8790588c38001612ce02",
+		"nombre": "Barry B",
+		"url_youtube": "https://www.youtube.com/channel/UCAS2CQOWwggfXPIeOIbo_QA",
+		"url_spotify": "https://open.spotify.com/artist/1jRwxa8eTgXDOhOlbRFFFy?si=VDyD78WVTIu7R-EaMa4zhQ",
+		"url_instagram": "https://www.instagram.com/elbarryb/",
+		"url_imagen": "https://i.ibb.co/mbLvyfd/barryb.png"
+	},
+	"61af88be588c38001612ce04": {
+		"id": "61af88be588c38001612ce04",
+		"nombre": "Ani Queen",
+		"url_spotify": "https://open.spotify.com/artist/3tPtEktqgNimM6XJdcOxmd?si=1rlGh0XSQa-rl2PGv5AhnA",
+		"url_youtube": "https://www.youtube.com/c/AniQueen_/videos",
+		"url_twitter": "https://twitter.com/Ani_queen__",
+		"url_instagram": "https://www.instagram.com/ani_queen_/",
+		"url_imagen": "https://i.ibb.co/6srJcq8/aniqueen.png"
+	},
+	"61af8974588c38001612ce06": {
+		"id": "61af8974588c38001612ce06",
+		"nombre": "Eric Nublado",
+		"url_youtube": "https://www.youtube.com/channel/UCRwUu7JILNehdIs4pvRvggw",
+		"url_spotify": "https://open.spotify.com/artist/4KwkokEjvCgmItZ9t4vvS0?si=4DdAKM0zSz-TWCN6LKD3Uw",
+		"url_twitter": "https://twitter.com/ericnublado",
+		"url_instagram": "https://www.instagram.com/ericnublado/",
+		"url_imagen": "https://i.ibb.co/WGrJSgZ/ericnublado.png"
+	},
+	"61af8a3c588c38001612ce08": {
+		"id": "61af8a3c588c38001612ce08",
+		"nombre": "Axolotes Mexicanos",
+		"url_youtube": "https://www.youtube.com/channel/UCHS7YcnZnUtZs77k3j6uSCw/videos",
+		"url_spotify": "https://open.spotify.com/artist/31IVfzTQ5bAPL8XMrO6dVx?si=UDb2R64sR4udMFEUqi2k4Q",
+		"url_twitter": "https://twitter.com/axolotesbanda",
+		"url_instagram": "https://www.instagram.com/axolotes_mexicanos/",
+		"url_imagen": "https://i.ibb.co/LJJwk6x/axalotesm.png"
+	},
+	"61af8b33588c38001612ce0a": {
+		"id": "61af8b33588c38001612ce0a",
+		"nombre": "Blanco Palamera",
+		"url_youtube": "https://www.youtube.com/channel/UCWiG31DnHfyuCfIZrUMHAUQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/6SEgrMW4qNH72UAx4h9epk?si=mbUvgSSeS_6JomAAHiO23Q",
+		"url_twitter": "https://twitter.com/BPalamera",
+		"url_instagram": "https://www.instagram.com/blancopalamera/",
+		"url_imagen": "https://i.ibb.co/4YwCzsm/blancopalamera.png"
+	},
+	"61af8c16588c38001612ce0c": {
+		"id": "61af8c16588c38001612ce0c",
+		"nombre": "airu",
+		"url_youtube": "https://www.youtube.com/channel/UC-zFUt2-aJMHM5DUvID6_zg/videos",
+		"url_spotify": "https://open.spotify.com/artist/47IHD6RxxZW56J4RazegM2?si=LYWWYZUgSyebq1HDBi3s1w",
+		"url_instagram": "https://www.instagram.com/airu.cove/",
+		"url_imagen": "https://i.ibb.co/MnRnnm2/airu.png"
+	},
+	"61dab87bb2013f0016a5e414": {
+		"id": "61dab87bb2013f0016a5e414",
+		"nombre": "Ciberchico",
+		"url_youtube": "https://www.youtube.com/channel/UCVK_6S60bT8FUOw5YNKESlQ",
+		"url_spotify": "https://open.spotify.com/artist/2Y6MpHfkkDuoc4x47xcdho?si=YJT4olchRuKXab7XNBEWwQ",
+		"url_instagram": "https://www.instagram.com/ciberchico/",
+		"url_imagen": "https://i.ibb.co/51PCqSF/ciberchico.png"
+	},
+	"61dabb4fb2013f0016a5e416": {
+		"id": "61dabb4fb2013f0016a5e416",
+		"nombre": "Drummie",
+		"url_spotify": "https://open.spotify.com/artist/569eg6JD5GgpfbGJ1b81b5?si=H7Cl8wvBRFq_Ogxz8itFWQ",
+		"url_instagram": "https://www.instagram.com/_drummie/",
+		"url_imagen": "https://i.ibb.co/BZnjcNn/drummie.png"
+	},
+	"61dabb93b2013f0016a5e417": {
+		"id": "61dabb93b2013f0016a5e417",
+		"nombre": "Sam Gold",
+		"url_spotify": "https://open.spotify.com/artist/0lAxZiS5x3tFeizbnVol0H?si=jjbJz9_9T6SE8dQ8kgzVwA",
+		"url_instagram": "https://www.instagram.com/sam__gold/",
+		"url_imagen": "https://i.ibb.co/hRZQN8f/samgold.png"
+	},
+	"61dabd26b2013f0016a5e419": {
+		"id": "61dabd26b2013f0016a5e419",
+		"nombre": "Bune",
+		"url_youtube": "https://www.youtube.com/channel/UCF4XYBKxiiorcsU6A3wYwgg",
+		"url_spotify": "https://open.spotify.com/artist/33IFDtR9lhtwvYW2uj9ZCh?si=IA2YyjY0QneNeIZO4VDGDQ",
+		"url_twitter": "https://twitter.com/bunesegovia",
+		"url_instagram": "https://www.instagram.com/buneral/",
+		"url_imagen": "https://i.ibb.co/tscStBD/bune.png"
+	},
+	"61dddccb63d2c20016731f37": {
+		"id": "61dddccb63d2c20016731f37",
+		"nombre": "MTINES",
+		"url_youtube": "https://www.youtube.com/channel/UCEagFC1kbfQyqucjvh8p3cQ",
+		"url_spotify": "https://open.spotify.com/artist/76lAr4DMu57YZufBZpdEP4?si=N8fhn7OmSpCDo5xDZKUHYg",
+		"url_twitter": "https://twitter.com/mtines____",
+		"url_instagram": "https://www.instagram.com/mtines____/",
+		"url_imagen": "https://i.ibb.co/zJX3xrJ/mtines.png"
+	},
+	"61fbf79a17e02600160e3dfc": {
+		"id": "61fbf79a17e02600160e3dfc",
+		"nombre": "Joder, Juan",
+		"url_youtube": "https://www.youtube.com/channel/UCo9b7Thbeo1GZv4iiFRXHrA",
+		"url_spotify": "https://open.spotify.com/artist/6aBkrLdqbTaGgefSznMub9?si=5Y3dUJl2RMGL5Tbi6e3B5A",
+		"url_twitter": "https://twitter.com/somosjoderjuan",
+		"url_instagram": "https://www.instagram.com/somosjoderjuan/",
+		"url_imagen": "https://i.ibb.co/9ghjsK5/joderjuan.png"
+	},
+	"61fbf83e17e02600160e3dfe": {
+		"id": "61fbf83e17e02600160e3dfe",
+		"url_youtube": "https://www.youtube.com/channel/UCbRL9ax4ovnsu_h7yeQ4f1A",
+		"nombre": "Mona Desnuda",
+		"url_spotify": "https://open.spotify.com/artist/2GB25mqMNUxS6zm4vreckO?si=R8-Gb8j7TQO1qkeYE3Bqtw",
+		"url_instagram": "https://www.instagram.com/monadesnuda/",
+		"url_twitter": "https://twitter.com/monadesnuda_",
+		"url_imagen": "https://i.ibb.co/hyd6Xk9/monadesnuda.png"
+	},
+	"61fbf91e17e02600160e3e00": {
+		"id": "61fbf91e17e02600160e3e00",
+		"nombre": "Chill Chicos",
+		"url_youtube": "https://www.youtube.com/c/chillchicos/videos",
+		"url_spotify": "https://open.spotify.com/artist/6QkU4dEKBiGy3rOepPOhnG?si=yiFjVoFJSci7947QhHib4g",
+		"url_twitter": "https://twitter.com/chillchicos",
+		"url_instagram": "https://www.instagram.com/chill.chicos/",
+		"url_imagen": "https://i.ibb.co/fGNRRg5/chillchicos.png"
+	},
+	"621d3abedc57030016b3c2cd": {
+		"id": "621d3abedc57030016b3c2cd",
+		"nombre": "Flavia Marsano",
+		"url_spotify": "https://open.spotify.com/artist/0E3zF8psuUTTnB0CpbIw8A?si=OQjlhKzTQi2fpZhcudo7Uw",
+		"url_twitter": "https://twitter.com/flaviajaja",
+		"url_instagram": "https://www.instagram.com/flavmarsa/",
+		"url_imagen": "https://i.ibb.co/PtS8X7r/flaviamarsano.png"
+	},
+	"621d3b18dc57030016b3c2ce": {
+		"id": "621d3b18dc57030016b3c2ce",
+		"nombre": "Rocco S",
+		"url_youtube": "https://www.youtube.com/c/RoccoS/videos",
+		"url_spotify": "https://open.spotify.com/artist/5SQjmqdfpyXNNsc9aCBrwx?si=NaF3P1SuSbqeMuyL9ViNjw",
+		"url_instagram": "https://www.instagram.com/rocco.ese/",
+		"url_imagen": "https://i.ibb.co/S0zfPCy/roccos.png"
+	},
+	"621d3b73dc57030016b3c2cf": {
+		"id": "621d3b73dc57030016b3c2cf",
+		"url_instagram": "https://www.instagram.com/douleurdolor/",
+		"nombre": "Douleurdolor",
+		"url_youtube": "https://www.youtube.com/c/DouleurDolor",
+		"url_spotify": "https://open.spotify.com/artist/6vfKO3oqYLZffoexZveF6T?si=qzYct3YFSpuzw7y4ATjFaQ",
+		"url_imagen": "https://i.ibb.co/X80qbkQ/douleudor.png"
+	},
+	"621d3bcfdc57030016b3c2d0": {
+		"id": "621d3bcfdc57030016b3c2d0",
+		"nombre": "Origami Azul",
+		"url_youtube": "https://www.youtube.com/channel/UCZajFr1N54iq8yUOdPlfTsg/videos",
+		"url_spotify": "https://open.spotify.com/artist/3WE9oNXbYBihI5vXffVz8u?si=h92viqCIR1aEONFtAaqc8g",
+		"url_instagram": "https://www.instagram.com/origami_azul/",
+		"url_imagen": "https://i.ibb.co/1zSxmmf/origamiazul.png"
+	},
+	"621d3c46dc57030016b3c2d1": {
+		"id": "621d3c46dc57030016b3c2d1",
+		"nombre": "HOFE",
+		"url_youtube": "https://www.youtube.com/channel/UCQVxreFfYoEG9HFD0v_r4Ag/videos",
+		"url_spotify": "https://open.spotify.com/artist/56J8Wxq3wAYCDHNwabMzrO?si=2N5aaKTjTV6YbeEU2OXOvw",
+		"url_twitter": "https://twitter.com/Igotzhofe",
+		"url_instagram": "https://www.instagram.com/igotzhofe/",
+		"url_imagen": "https://i.ibb.co/wM2MmZb/hofe.png"
+	},
+	"621d3c7adc57030016b3c2d2": {
+		"id": "621d3c7adc57030016b3c2d2",
+		"nombre": "4:40",
+		"url_spotify": "https://open.spotify.com/artist/7MOZ1UkkdIfPgjSHzIsR6F?si=w3z4ikl4TyGnUJOyBL36vg",
+		"url_instagram": "https://www.instagram.com/cuattro40/",
+		"url_imagen": "https://i.ibb.co/tY7z4hB/440.png"
+	},
+	"621d3cbcdc57030016b3c2d3": {
+		"id": "621d3cbcdc57030016b3c2d3",
+		"nombre": "Merina Gris",
+		"url_youtube": "https://www.youtube.com/channel/UCPLxNcJ9b_ufgucK92mA6KQ/videos",
+		"url_spotify": "https://open.spotify.com/artist/7MoqcWOPD6BEKF85fxvwuD?si=XcPM_ZCzTGuD77wGxtZyIw",
+		"url_twitter": "https://twitter.com/MerinaGris",
+		"url_instagram": "https://www.instagram.com/merinagris/",
+		"url_imagen": "https://i.ibb.co/Cwn6pQK/merinagris.png"
+	},
+	"621d3cfedc57030016b3c2d4": {
+		"id": "621d3cfedc57030016b3c2d4",
+		"nombre": "Cris Belako",
+		"url_youtube": "https://www.youtube.com/c/Belako/videos",
+		"url_twitter": "https://twitter.com/belakoband",
+		"url_spotify": "https://open.spotify.com/artist/7znL32O79uRRRhojT25gug?si=jXw_Y9CsQ7-GKqQYHkH8cA",
+		"url_instagram": "https://www.instagram.com/belakoo/",
+		"url_imagen": "https://i.ibb.co/qybNrVC/belako.png"
+	}
+}

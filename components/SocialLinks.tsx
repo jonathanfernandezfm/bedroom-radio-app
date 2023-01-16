@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Cancion } from '@models/Cancion';
 import { IoShareSocial } from 'react-icons/io5';
+import { getArtista } from 'services/db_service';
 
 interface SocialLinksProps {
 	song: Cancion;
@@ -14,6 +15,7 @@ export const SocialLinks = ({ song, showInterface }: SocialLinksProps) => {
 		)}%20de%20`;
 
 		url += song.artistas
+			.map((art) => getArtista(art))
 			.map((art) => (art.url_twitter ? `%40${art.url_twitter.split('/').pop()}` : encodeURIComponent(art.nombre)))
 			.join('%20%26%20');
 
