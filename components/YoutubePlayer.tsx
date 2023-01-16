@@ -11,7 +11,11 @@ interface YoutubePlayerProps {
 	song?: Cancion;
 	nextSong: () => void;
 	prevSong: () => void;
+	onRepeat: () => void;
+	onShuffle: () => void;
 	showInterface: boolean;
+	repeat: boolean;
+	shuffle: boolean;
 }
 
 const opts: Options = {
@@ -37,7 +41,11 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 	song,
 	nextSong,
 	prevSong,
+	onRepeat,
+	onShuffle,
 	showInterface,
+	repeat,
+	shuffle,
 }: YoutubePlayerProps) => {
 	const [player, setPlayer] = useState<any>(undefined);
 	const [playerState, setPlayerState] = useState(-1);
@@ -127,10 +135,14 @@ const YoutubePlayer: React.FC<YoutubePlayerProps> = ({
 				onPlayPause={onPlayPause}
 				onPrevVideo={prevSong}
 				onNextVideo={nextSong}
+				onRepeat={onRepeat}
+				onShuffle={onShuffle}
 				onVolumeChange={onVolumeChange}
 				volume={volume}
 				playerState={playerState}
 				showInterface={showInterface}
+				repeat={repeat}
+				shuffle={shuffle}
 			/>
 			<YouTube
 				videoId={''}

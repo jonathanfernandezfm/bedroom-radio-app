@@ -32,6 +32,8 @@ const Home = ({ songs }: HomeProps) => {
 	const [showPlayer, setShowPlayer] = useState(false);
 	const [song, setSong] = useState<Cancion>(songs[0]);
 	const [showInterface, toggleShowInterface] = useState(true);
+	const [repeatSong, setRepeatSong] = useState(false);
+	const [shuffleSong, setShuffleSong] = useState(false);
 	const [showLateralSlideRight, toggleLateralSlideRight] = useState(false);
 	const [showLateralSlideLeft, toggleLateralSlideLeft] = useState(false);
 	const [selectedArtist, setSelectedArtist] = useState<Artista | undefined>(undefined);
@@ -63,14 +65,17 @@ const Home = ({ songs }: HomeProps) => {
 	};
 
 	const nextSong = () => {
+		if (repeatSong) return setSong(song);
 		const index = songs.findIndex((s) => s.id_youtube === song?.id_youtube);
 		if (index !== undefined) {
+			if (shuffleSong) return setSong(songs[Math.floor(Math.random() * songs.length)]);
 			if (songs.length - 1 === index) return setSong(songs[0]);
 			if (index < songs.length) return setSong(songs[index + 1]);
 		}
 	};
 
 	const prevSong = () => {
+		if (repeatSong) return setSong(song);
 		const index = songs.findIndex((s) => s.id_youtube === song?.id_youtube);
 		if (index !== undefined) {
 			if (index === 0) return setSong(songs[songs.length - 1]);
@@ -177,10 +182,18 @@ const Home = ({ songs }: HomeProps) => {
 				<YoutubePlayer
 					nextSong={nextSong}
 					prevSong={prevSong}
+					onRepeat={() => {
+						setRepeatSong(!repeatSong);
+					}}
+					onShuffle={() => {
+						setShuffleSong(!shuffleSong);
+					}}
 					song={song}
 					showPlayer={showPlayer}
 					setLoadingStatus={setLoadingPlayer}
 					showInterface={showInterface}
+					repeat={repeatSong}
+					shuffle={shuffleSong}
 				/>
 			</main>
 		</>

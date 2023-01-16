@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"akar-icons": "^1.9.22",
 		"css.gg": "^2.0.0",
 		"lodash.debounce": "^4.0.8",
 		"next": "^11.1.2",
