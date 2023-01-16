@@ -19,6 +19,9 @@ module.exports = {
 				14: '0.14',
 				15: '0.15',
 			},
+			backgroundSize: {
+				zoom: '150%',
+			},
 			keyframes: {
 				modal: {
 					'0%': { transform: 'scale(0.01)' },
