@@ -17,20 +17,20 @@ import { Artista } from '@models/Artista';
 import TitlePlaylist from '@components/TitlePlaylist';
 import ArtistInfo from '@components/ArtistInfo';
 import PlaylistList from '@components/PlaylistList';
+import { getCancion, getPlaylist, getPlaylists } from 'services/db_service';
 
 interface HomeProps {
-	playlists: Playlist[];
+	songs: Cancion[];
 }
 
 var timeout: NodeJS.Timeout;
 var timeoutMouse: NodeJS.Timeout | undefined;
 
-const Home = ({ playlists }: HomeProps) => {
+const Home = ({ songs }: HomeProps) => {
 	const [loadingPlayer, setLoadingPlayer] = useState(true);
 	const [modalVisible, toggleModalVisible] = useState(false);
 	const [showPlayer, setShowPlayer] = useState(false);
-	const [playlist, setPlaylist] = useState<Playlist>(playlists[0]);
-	const [song, setSong] = useState<Cancion>(playlist?.canciones[0]);
+	const [song, setSong] = useState<Cancion>(songs[0]);
 	const [showInterface, toggleShowInterface] = useState(true);
 	const [showLateralSlideRight, toggleLateralSlideRight] = useState(false);
 	const [showLateralSlideLeft, toggleLateralSlideLeft] = useState(false);
@@ -38,9 +38,8 @@ const Home = ({ playlists }: HomeProps) => {
 	const [selectedPlaylist, setSelectedPlaylist] = useState<number>(0);
 
 	useEffect(() => {
-		setPlaylist(playlists[selectedPlaylist]);
-		setSong(playlists[selectedPlaylist].canciones[0]);
-	}, [playlists, selectedPlaylist]);
+		setSong(songs[0]);
+	}, [songs]);
 
 	useEffect(() => {
 		window.addEventListener('mousemove', interfaceOnMouse);
@@ -64,18 +63,18 @@ const Home = ({ playlists }: HomeProps) => {
 	};
 
 	const nextSong = () => {
-		const index = playlist?.canciones.findIndex((s) => s.id_youtube === song?.id_youtube);
+		const index = songs.findIndex((s) => s.id_youtube === song?.id_youtube);
 		if (index !== undefined) {
-			if (playlist?.canciones.length - 1 === index) return setSong(playlist?.canciones[0]);
-			if (index < playlist?.canciones?.length) return setSong(playlist?.canciones[index + 1]);
+			if (songs.length - 1 === index) return setSong(songs[0]);
+			if (index < songs.length) return setSong(songs[index + 1]);
 		}
 	};
 
 	const prevSong = () => {
-		const index = playlist?.canciones.findIndex((s) => s.id_youtube === song?.id_youtube);
+		const index = songs.findIndex((s) => s.id_youtube === song?.id_youtube);
 		if (index !== undefined) {
-			if (index === 0) return setSong(playlist?.canciones[playlist.canciones.length - 1]);
-			if (index > 0) return setSong(playlist?.canciones[index - 1]);
+			if (index === 0) return setSong(songs[songs.length - 1]);
+			if (index > 0) return setSong(songs[index - 1]);
 		}
 	};
 
@@ -139,13 +138,13 @@ const Home = ({ playlists }: HomeProps) => {
 				</Modal>
 
 				{/* LATERAL SLIDE LEFT */}
-				<LateralSlideLeft show={showLateralSlideLeft} toggleLateralSlideLeft={toggleLateralSlideLeft}>
+				{/* <LateralSlideLeft show={showLateralSlideLeft} toggleLateralSlideLeft={toggleLateralSlideLeft}>
 					<PlaylistList
 						playlists={playlists}
 						selectedPlaylist={selectedPlaylist}
 						selectPlaylist={selectPlaylist}
 					/>
-				</LateralSlideLeft>
+				</LateralSlideLeft> */}
 
 				{/* LATERAL SLIDE RIGHT */}
 				<LateralSlideRight show={showLateralSlideRight} toggleLateralSlideRight={toggleLateralSlideRight}>
@@ -153,13 +152,13 @@ const Home = ({ playlists }: HomeProps) => {
 				</LateralSlideRight>
 
 				{/* PLAYLIST SELECTOR */}
-				{playlists.length > 1 && (
+				{/* {playlists.length > 1 && (
 					<TitlePlaylist
 						showInterface={showInterface}
 						toggleShowPlaylists={toggleLateralSlideLeft}
 						playlist={playlist}
 					/>
-				)}
+				)} */}
 
 				{/* TOP MENU */}
 				<TopMenu toggleModalInfo={toggleModalInfo} showInterface={showInterface} />
@@ -189,18 +188,17 @@ const Home = ({ playlists }: HomeProps) => {
 };
 
 Home.getInitialProps = async () => {
-	const res = await fetch(`${process.env.API_URL}/playlists`);
-	const json = await res.json();
+	let canciones: Cancion[] = [];
 
-	json.forEach((playlist: Playlist) => {
-		playlist.canciones = shuffle(playlist.canciones);
-		playlist.canciones = [
-			...playlist.canciones.filter((c) => c.estreno),
-			...playlist.canciones.filter((c) => !c.estreno),
-		];
-	});
+	const key = '61041829d77e270015296fc4';
+	const playlist = getPlaylist(key);
+	console.log(key, playlist.canciones);
+	canciones = playlist.canciones.map((c) => getCancion(c));
 
-	return { playlists: json };
+	const shufledCanciones = shuffle(canciones) as Cancion[];
+	canciones = [...shufledCanciones.filter((c) => c.estreno), ...shufledCanciones.filter((c) => !c.estreno)];
+
+	return { songs: canciones };
 };
 
 export default Home;

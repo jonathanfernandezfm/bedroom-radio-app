@@ -1,0 +1,632 @@
+{
+	"61785e3e9abf0a001617d176": {
+		"id": "61785e3e9abf0a001617d176",
+		"estreno": false,
+		"artistas": ["61785e1b9abf0a001617d175"],
+		"url_youtube": "https://youtu.be/EJ_o8mMqmhI",
+		"id_youtube": "EJ_o8mMqmhI",
+		"nombre": "muchos meses",
+		"url_spotify": "https://open.spotify.com/track/5xwu0VrgQFeB0cdWFmF4Up?si=6367a1a219a2437d"
+	},
+	"61785f449abf0a001617d178": {
+		"id": "61785f449abf0a001617d178",
+		"estreno": false,
+		"artistas": ["61785f0e9abf0a001617d177"],
+		"url_spotify": "https://open.spotify.com/track/7kcTZyE0IaUgCzaIXSrz07?si=0bd4aaad4b104561",
+		"url_youtube": "https://youtu.be/QY1W8MdUVAI",
+		"id_youtube": "QY1W8MdUVAI",
+		"nombre": "Suena Bonito"
+	},
+	"61785fc99abf0a001617d17a": {
+		"id": "61785fc99abf0a001617d17a",
+		"estreno": false,
+		"artistas": ["61785f909abf0a001617d179"],
+		"url_spotify": "https://open.spotify.com/track/0v3kDdZXjyysDcwdYfmNhB?si=d42d37972725405e",
+		"url_youtube": "https://youtu.be/0UO676bEP14",
+		"id_youtube": "0UO676bEP14",
+		"nombre": "Jeanne Dielman"
+	},
+	"617860939abf0a001617d17c": {
+		"id": "617860939abf0a001617d17c",
+		"estreno": false,
+		"artistas": ["617860319abf0a001617d17b"],
+		"url_spotify": "https://open.spotify.com/track/769vvTHNsnrJTg5XfqkJ0I?si=6feff3a5220e4f48",
+		"url_youtube": "https://youtu.be/-koTxLFHFMw",
+		"id_youtube": "-koTxLFHFMw",
+		"nombre": "algo falla"
+	},
+	"6192bb78fa9ba400160f44e9": {
+		"id": "6192bb78fa9ba400160f44e9",
+		"estreno": false,
+		"artistas": ["6192bb6efa9ba400160f44e8"],
+		"url_youtube": "https://youtu.be/WygJGhYsP5k",
+		"id_youtube": "WygJGhYsP5k",
+		"nombre": "Bravo Murillo",
+		"url_spotify": "https://open.spotify.com/album/5naxnNzsRhTXuGq5mDo4Fr?si=JaqyTXxwRNOjXWvRAiznFw"
+	},
+	"6192bc17fa9ba400160f44eb": {
+		"id": "6192bc17fa9ba400160f44eb",
+		"estreno": false,
+		"artistas": ["6192bbdffa9ba400160f44ea"],
+		"url_spotify": "https://open.spotify.com/track/7vLUUNhmIRIQ5eJ0bqXCKu?si=fbab89c4afee4743",
+		"nombre": "Tot El Que No Hem Vist",
+		"url_youtube": "https://youtu.be/ME-Ko6U8ZyU",
+		"id_youtube": "ME-Ko6U8ZyU"
+	},
+	"6192bc8afa9ba400160f44ed": {
+		"id": "6192bc8afa9ba400160f44ed",
+		"estreno": false,
+		"artistas": ["6192bc65fa9ba400160f44ec"],
+		"url_spotify": "https://open.spotify.com/track/5NegggS5UugjD5lBMn173F?si=280951f48bef415e",
+		"url_youtube": "https://youtu.be/uyShmpDRwe4",
+		"id_youtube": "uyShmpDRwe4",
+		"nombre": "Todos Mis Cristales"
+	},
+	"6192bd3afa9ba400160f44ef": {
+		"id": "6192bd3afa9ba400160f44ef",
+		"estreno": false,
+		"artistas": ["6192bcfcfa9ba400160f44ee"],
+		"nombre": "Tremenda suerte",
+		"url_spotify": "https://open.spotify.com/track/7umKinlvlVpiNkIhwHvcYT?si=54981da75df44b7d",
+		"url_youtube": "https://youtu.be/dnKo6ANilSk",
+		"id_youtube": "dnKo6ANilSk"
+	},
+	"6192bd9ffa9ba400160f44f1": {
+		"id": "6192bd9ffa9ba400160f44f1",
+		"estreno": false,
+		"artistas": ["6192bd7ffa9ba400160f44f0"],
+		"url_spotify": "https://open.spotify.com/track/76g3RAh4QgdPnuGmGjXFvg?si=bd8652e2902342d0",
+		"url_youtube": "https://youtu.be/EoTDdBZADNA",
+		"id_youtube": "EoTDdBZADNA",
+		"nombre": "Juntos En El Coche"
+	},
+	"61af3570588c38001612cd9d": {
+		"id": "61af3570588c38001612cd9d",
+		"estreno": false,
+		"artistas": ["61af3540588c38001612cd9c"],
+		"nombre": "Aire Nuevo",
+		"id_youtube": "rVb42wZ7Ylc",
+		"url_youtube": "https://youtu.be/rVb42wZ7Ylc",
+		"url_spotify": "https://open.spotify.com/track/2YnxvHKuGDVMHfdjODeoUU?si=336d3cfedf8f4205"
+	},
+	"61af3688588c38001612cd9f": {
+		"id": "61af3688588c38001612cd9f",
+		"estreno": false,
+		"artistas": ["61af3646588c38001612cd9e"],
+		"id_youtube": "rV0YyY-IE9c",
+		"url_youtube": "https://youtu.be/rV0YyY-IE9c",
+		"nombre": "Alguien Normal",
+		"url_spotify": "https://open.spotify.com/track/7fTaNqv1SJfMWqHC6NMcpP?si=8ed3ae6f98554049"
+	},
+	"61af3a51588c38001612cda3": {
+		"id": "61af3a51588c38001612cda3",
+		"estreno": false,
+		"artistas": ["61af3a2a588c38001612cda2"],
+		"nombre": "April",
+		"url_youtube": "https://youtu.be/YQ8Kz2twupw",
+		"id_youtube": "YQ8Kz2twupw",
+		"url_spotify": "https://open.spotify.com/track/23PbT6VELTygvO7lFgtT9D?si=752dfc032caf42b9"
+	},
+	"61af3b2a588c38001612cda5": {
+		"id": "61af3b2a588c38001612cda5",
+		"estreno": false,
+		"artistas": ["61af3b05588c38001612cda4"],
+		"nombre": "Mocasines Prada",
+		"url_youtube": "https://youtu.be/ppnhJw8OiUc",
+		"id_youtube": "ppnhJw8OiUc",
+		"url_spotify": "https://open.spotify.com/album/7q5zoRjxW0QERbp9mERG9n?si=13Av-ph-TjyUNleAH1UbDA"
+	},
+	"61af3c62588c38001612cda7": {
+		"id": "61af3c62588c38001612cda7",
+		"estreno": false,
+		"artistas": ["61af3c10588c38001612cda6"],
+		"nombre": "blind faith",
+		"url_youtube": "https://youtu.be/UEPQ1yk6Gpo",
+		"id_youtube": "UEPQ1yk6Gpo",
+		"url_spotify": "https://open.spotify.com/track/3HkFx9tWlCN7yFDkvE7GTC?si=c010411c962d4c9f"
+	},
+	"61af3e3b588c38001612cdab": {
+		"id": "61af3e3b588c38001612cdab",
+		"estreno": false,
+		"artistas": ["61af3e15588c38001612cdaa"],
+		"url_youtube": "https://youtu.be/GhW1PaocUd8",
+		"url_spotify": "https://open.spotify.com/track/4OnYWEVI0DTAiBJjhNtgue?si=5bafddf0b80f4ba3",
+		"id_youtube": "GhW1PaocUd8",
+		"nombre": "Cobarde"
+	},
+	"61af3f25588c38001612cdad": {
+		"id": "61af3f25588c38001612cdad",
+		"estreno": false,
+		"artistas": ["61af3ef2588c38001612cdac"],
+		"nombre": "Todo o que che din",
+		"url_youtube": "https://youtu.be/sdhbZUNrjKA",
+		"id_youtube": "sdhbZUNrjKA",
+		"url_spotify": "https://open.spotify.com/album/1jyKsn9gNPW2rkxh15pDsy?si=FhsnBfFPSJWImwvMQn6D4g"
+	},
+	"61af4020588c38001612cdaf": {
+		"id": "61af4020588c38001612cdaf",
+		"estreno": false,
+		"artistas": ["61af3ff1588c38001612cdae"],
+		"nombre": "Cuando me dejo 11evar",
+		"url_youtube": "https://youtu.be/nk1MGtLJRkk",
+		"id_youtube": "nk1MGtLJRkk",
+		"url_spotify": "https://open.spotify.com/album/0DqMR9JabPAg8bkavFJRQ5?si=0xv1FZYKThmMdjaJrzaBYQ"
+	},
+	"61af4107588c38001612cdb1": {
+		"id": "61af4107588c38001612cdb1",
+		"estreno": false,
+		"artistas": ["61af40db588c38001612cdb0"],
+		"nombre": "Cumbia de las Flores Quemadas",
+		"url_youtube": "https://youtu.be/PHJjfQgf4Z8",
+		"id_youtube": "PHJjfQgf4Z8",
+		"url_spotify": "https://open.spotify.com/album/3OQ4XJyqMuRfYYeMrxWzvc?si=V7QOwE7LSzqZIZ9kjKVFTQ"
+	},
+	"61af4403588c38001612cdb5": {
+		"id": "61af4403588c38001612cdb5",
+		"estreno": false,
+		"artistas": ["61af43d8588c38001612cdb4"],
+		"nombre": "Darkness",
+		"url_youtube": "https://youtu.be/YKXVZwd9pR0",
+		"id_youtube": "YKXVZwd9pR0",
+		"url_spotify": "https://open.spotify.com/album/1n42tR4mmE58b7poNMjoQj?si=NNmpONfqRhSh6q5XzIFDXw"
+	},
+	"61af46fb588c38001612cdb9": {
+		"id": "61af46fb588c38001612cdb9",
+		"estreno": false,
+		"artistas": ["61af46d1588c38001612cdb8"],
+		"nombre": "diMe que me calle",
+		"url_youtube": "https://youtu.be/k6dicEfxKPQ",
+		"id_youtube": "k6dicEfxKPQ",
+		"url_spotify": "https://open.spotify.com/album/2vZAm4JUPbTlQIsRD4Qhp8?si=261ea2e8968c4d9a"
+	},
+	"61af47f7588c38001612cdbb": {
+		"id": "61af47f7588c38001612cdbb",
+		"estreno": false,
+		"artistas": ["61af47c6588c38001612cdba"],
+		"nombre": "El Círculo",
+		"url_youtube": "https://youtu.be/NGWUagrf1kU",
+		"id_youtube": "NGWUagrf1kU",
+		"url_spotify": "https://open.spotify.com/album/1YGOwQRrbTILIXICx0KiGz?si=km95qfbVTJehzYvnA0q8_g"
+	},
+	"61af494c588c38001612cdbe": {
+		"id": "61af494c588c38001612cdbe",
+		"estreno": false,
+		"artistas": ["61af48e6588c38001612cdbc", "61af491e588c38001612cdbd"],
+		"nombre": "El Pico",
+		"url_youtube": "https://youtu.be/ct0Avtf0S68",
+		"id_youtube": "ct0Avtf0S68",
+		"url_spotify": "https://open.spotify.com/album/3tuivY98TBCFR17dIFyGmF?si=TQWgwavIQByJO7YcjqCF2A"
+	},
+	"61af4a37588c38001612cdc0": {
+		"id": "61af4a37588c38001612cdc0",
+		"estreno": false,
+		"artistas": ["61af49f6588c38001612cdbf"],
+		"nombre": "Entropía",
+		"url_youtube": "https://youtu.be/w1f30NtURSY",
+		"id_youtube": "w1f30NtURSY",
+		"url_spotify": "https://open.spotify.com/album/4H83AFsCAE6jDR6kpt9G8H?si=EUMBCLNRTq-McqJmLPWeyg"
+	},
+	"61af4b99588c38001612cdc2": {
+		"id": "61af4b99588c38001612cdc2",
+		"estreno": false,
+		"artistas": ["61af4b78588c38001612cdc1"],
+		"nombre": "Federica",
+		"url_youtube": "https://youtu.be/mLh7-V0w5mo",
+		"id_youtube": "mLh7-V0w5mo",
+		"url_spotify": "https://open.spotify.com/album/00NOrEW1CK1xlDQfdOydmS?si=WkgtR29iS_ez5cZank_eXA"
+	},
+	"61af4c68588c38001612cdc4": {
+		"id": "61af4c68588c38001612cdc4",
+		"estreno": false,
+		"artistas": ["61af4c41588c38001612cdc3"],
+		"nombre": "Cállate Ya",
+		"url_youtube": "https://youtu.be/N-Zq-VhH_zY",
+		"id_youtube": "N-Zq-VhH_zY",
+		"url_spotify": "https://open.spotify.com/album/1GR15h0F9fZoYegYifauo9?si=4ef2ef0cf06d48d0"
+	},
+	"61af4d54588c38001612cdc6": {
+		"id": "61af4d54588c38001612cdc6",
+		"estreno": false,
+		"artistas": ["61af4d2c588c38001612cdc5"],
+		"nombre": "Esta pena que a veces teño",
+		"url_spotify": "https://open.spotify.com/album/7jKsRtUKIs8n3RmLM5zcRY?si=ukqv3c5nQWiE6HhFGrL-WQ",
+		"url_youtube": "https://youtu.be/OuErj0VLNc0",
+		"id_youtube": "OuErj0VLNc0"
+	},
+	"61af4e39588c38001612cdc8": {
+		"id": "61af4e39588c38001612cdc8",
+		"estreno": false,
+		"artistas": ["61af4e0e588c38001612cdc7"],
+		"url_youtube": "https://youtu.be/7LJARNN2vwQ",
+		"id_youtube": "7LJARNN2vwQ",
+		"nombre": "está muy bien",
+		"url_spotify": "https://open.spotify.com/album/2Ly5i86HyjqGXJ3AnDQzrO?si=60d900b0e2b84c9f"
+	},
+	"61af4f33588c38001612cdca": {
+		"id": "61af4f33588c38001612cdca",
+		"estreno": false,
+		"artistas": ["61af4f11588c38001612cdc9"],
+		"nombre": "La importancia de comer langosta",
+		"url_youtube": "https://youtu.be/PcskQisvol8",
+		"id_youtube": "PcskQisvol8",
+		"url_spotify": "https://open.spotify.com/album/3QJ5LOBDeWHeghGXwvvy6T?si=x35kJ54gTV2_mm6iobGlFA"
+	},
+	"61af4fff588c38001612cdcc": {
+		"id": "61af4fff588c38001612cdcc",
+		"estreno": false,
+		"artistas": ["61af4fd7588c38001612cdcb"],
+		"nombre": "Hacerte Bien",
+		"url_youtube": "https://youtu.be/EYvDoZLvdBQ",
+		"url_spotify": "https://open.spotify.com/album/26pjhLWs4dgGV6WTq4RiTl?si=150d71423c6f45fc",
+		"id_youtube": "EYvDoZLvdBQ"
+	},
+	"61af50ba588c38001612cdce": {
+		"id": "61af50ba588c38001612cdce",
+		"estreno": false,
+		"artistas": ["61af5096588c38001612cdcd"],
+		"nombre": "Igual a nadie",
+		"url_youtube": "https://youtu.be/tXpDQUFUf2U",
+		"id_youtube": "tXpDQUFUf2U",
+		"url_spotify": "https://open.spotify.com/album/0HpwqcLuraBnbCSLIaByij?si=d4M4op-aR3aZioavi1O2BA"
+	},
+	"61af5282588c38001612cdd2": {
+		"id": "61af5282588c38001612cdd2",
+		"estreno": false,
+		"artistas": ["61af5260588c38001612cdd1"],
+		"nombre": "Lejos un rato",
+		"url_youtube": "https://youtu.be/6khUUn4YcsQ",
+		"url_spotify": "https://open.spotify.com/album/3tWYiH28ICaLwjsRzXwSJi?si=TLKsfK2HRDC--I91AAUhfQ",
+		"id_youtube": "6khUUn4YcsQ"
+	},
+	"61af532d588c38001612cdd4": {
+		"id": "61af532d588c38001612cdd4",
+		"estreno": false,
+		"artistas": ["61af530b588c38001612cdd3"],
+		"nombre": "Lejos",
+		"url_youtube": "https://youtu.be/G9EP0kJ7zdY",
+		"id_youtube": "G9EP0kJ7zdY",
+		"url_spotify": "https://open.spotify.com/album/2AEWYgCX3VWaBHRSrNxtNl?si=3jlXMUoLRF-br7NqbWsDvw"
+	},
+	"61af53fc588c38001612cdd6": {
+		"id": "61af53fc588c38001612cdd6",
+		"estreno": false,
+		"artistas": ["61af53d4588c38001612cdd5"],
+		"nombre": "Los Ratos Contigo",
+		"url_youtube": "https://youtu.be/MWdKU-4TmZs",
+		"id_youtube": "MWdKU-4TmZs",
+		"url_spotify": "https://open.spotify.com/album/1ACi5i6SAbSuOMhdNZOlMN?si=5AAgTQd0QAOZ7wMsLFP2eg"
+	},
+	"61af551f588c38001612cdd8": {
+		"id": "61af551f588c38001612cdd8",
+		"estreno": false,
+		"artistas": ["61af54f2588c38001612cdd7"],
+		"nombre": "Alguien En Tu Casa",
+		"url_youtube": "https://youtu.be/nWi_mvgku1g",
+		"id_youtube": "nWi_mvgku1g",
+		"url_spotify": "https://open.spotify.com/album/4XocEAvyf0xNM1vFIh33Vv?si=vOlwlbtiTfCCFs8zIItEEg"
+	},
+	"61af564f588c38001612cddb": {
+		"id": "61af564f588c38001612cddb",
+		"estreno": false,
+		"artistas": ["61af5631588c38001612cdda"],
+		"nombre": "mal mal",
+		"url_youtube": "https://youtu.be/W8RxdcRHxfU",
+		"id_youtube": "W8RxdcRHxfU",
+		"url_spotify": "https://open.spotify.com/album/60MU0QO3rQCsov7JMsquBG?si=00adf62527f84837"
+	},
+	"61af7566588c38001612cdde": {
+		"id": "61af7566588c38001612cdde",
+		"estreno": false,
+		"artistas": ["61af7540588c38001612cddd", "61af7513588c38001612cddc"],
+		"nombre": "Dónde está er camino",
+		"url_youtube": "https://youtu.be/XAOrkzJ0c70",
+		"id_youtube": "XAOrkzJ0c70",
+		"url_spotify": "https://open.spotify.com/album/7JFECM0keqEPTGLrXIcJvR?si=iU5tkqGjRLmgP3gYu8xWSA"
+	},
+	"61af76b8588c38001612cde0": {
+		"id": "61af76b8588c38001612cde0",
+		"estreno": false,
+		"artistas": ["61af7660588c38001612cddf"],
+		"nombre": "Mándame un Audio",
+		"url_youtube": "https://youtu.be/amZSoS_Adow",
+		"id_youtube": "amZSoS_Adow",
+		"url_spotify": "https://open.spotify.com/album/07CPGohYoFZl7dqbjB06sq?si=EMtfrR79SAWGc5uIirR0fA"
+	},
+	"61af777b588c38001612cde2": {
+		"id": "61af777b588c38001612cde2",
+		"estreno": false,
+		"artistas": ["61af775a588c38001612cde1"],
+		"nombre": "Marte",
+		"url_youtube": "https://youtu.be/surZkoR-nU8",
+		"id_youtube": "surZkoR-nU8",
+		"url_spotify": "https://open.spotify.com/album/6XBrUVDrCm7LK0kFgPDvva?si=vOg4TyHQQCOks97BM5l6Kw"
+	},
+	"61af786f588c38001612cde4": {
+		"id": "61af786f588c38001612cde4",
+		"estreno": false,
+		"artistas": ["61af7848588c38001612cde3", "61af799a588c38001612cde5"],
+		"nombre": "EYES WIDE SHUT",
+		"url_youtube": "https://youtu.be/uVhGFg3w5Ck",
+		"id_youtube": "uVhGFg3w5Ck",
+		"url_spotify": "https://open.spotify.com/album/2zcey6pU14OWu4DpUI1E9a?si=WTvkCk3_T_OVwT735oAnmQ"
+	},
+	"61af7bb7588c38001612cde8": {
+		"id": "61af7bb7588c38001612cde8",
+		"estreno": false,
+		"artistas": ["61af7b52588c38001612cde6", "61af7b8c588c38001612cde7"],
+		"nombre": "Nos Vemos Luego",
+		"url_youtube": "https://youtu.be/bT8_2uoYQVc",
+		"id_youtube": "bT8_2uoYQVc",
+		"url_spotify": "https://open.spotify.com/album/6tRHKz0BfNOH9e1E7JvpSh?si=ZTnYjLwRTvSvwOzpRCNK4w"
+	},
+	"61af7cd2588c38001612cdea": {
+		"id": "61af7cd2588c38001612cdea",
+		"estreno": false,
+		"artistas": ["61af7cab588c38001612cde9", "61af3b05588c38001612cda4"],
+		"nombre": "No Te Vayas Aún",
+		"url_youtube": "https://youtu.be/D4Uo0vvPb4o",
+		"id_youtube": "D4Uo0vvPb4o",
+		"url_spotify": "https://open.spotify.com/album/4CLnGaoO6TOiiX8Ii8aqGa?si=l7S-mCj0SfmBtgwNvMYjew"
+	},
+	"61af7dae588c38001612cdec": {
+		"id": "61af7dae588c38001612cdec",
+		"estreno": false,
+		"artistas": ["61af7d89588c38001612cdeb"],
+		"nombre": "Odiar Frontal",
+		"url_youtube": "https://youtu.be/z-TRbjcn0F0",
+		"id_youtube": "z-TRbjcn0F0",
+		"url_spotify": "https://open.spotify.com/album/6dqnfkFIk2k450lqaCPTKq?si=4a66cbb63cc2489f"
+	},
+	"61af7e7a588c38001612cdee": {
+		"id": "61af7e7a588c38001612cdee",
+		"estreno": false,
+		"artistas": ["61af7e58588c38001612cded"],
+		"nombre": "oh boi",
+		"url_youtube": "https://youtu.be/oZkZlh2XfQI",
+		"id_youtube": "oZkZlh2XfQI",
+		"url_spotify": "https://open.spotify.com/album/26ebZlSAN9yvJyzf7qcquZ?si=94g4Du0ZT4-Rb8JT66MY0A"
+	},
+	"61af7f57588c38001612cdf0": {
+		"id": "61af7f57588c38001612cdf0",
+		"estreno": false,
+		"artistas": ["61af7f2c588c38001612cdef"],
+		"nombre": "pizza",
+		"url_youtube": "https://youtu.be/W9JpB-JBIAc",
+		"id_youtube": "W9JpB-JBIAc",
+		"url_spotify": "https://open.spotify.com/album/2i7oobLiBdNj4w4jwZKjh0?si=a22WocwWTOi_27PvcnDNDw"
+	},
+	"61af8020588c38001612cdf2": {
+		"id": "61af8020588c38001612cdf2",
+		"estreno": false,
+		"artistas": ["61af7ff5588c38001612cdf1"],
+		"nombre": "Olvídate",
+		"url_youtube": "https://youtu.be/NHnegkDAqsU",
+		"id_youtube": "NHnegkDAqsU",
+		"url_spotify": "https://open.spotify.com/album/5Rnz8s85WXGnC8JVahzGcw?si=g44jHeqlSNG2Y5Lt1v20MA"
+	},
+	"61af80d8588c38001612cdf4": {
+		"id": "61af80d8588c38001612cdf4",
+		"estreno": false,
+		"artistas": ["61af80b9588c38001612cdf3"],
+		"nombre": " La Arena",
+		"url_youtube": "https://youtu.be/dzQD4WrP5vk",
+		"id_youtube": "dzQD4WrP5vk",
+		"url_spotify": "https://open.spotify.com/album/3Q13kj1cJZbyE42tTpuB7J?si=c11iNp6XR7WFl7rZzYeWHg"
+	},
+	"61af8195588c38001612cdf6": {
+		"id": "61af8195588c38001612cdf6",
+		"estreno": false,
+		"artistas": ["61af816e588c38001612cdf5"],
+		"nombre": "Que No",
+		"url_youtube": "https://youtu.be/_8L86ziGRQ0",
+		"id_youtube": "_8L86ziGRQ0",
+		"url_spotify": "https://open.spotify.com/album/6HPv0iZ6hle3YMLPNfXfYB?si=2587b6bf2d834fa2"
+	},
+	"61af8254588c38001612cdf8": {
+		"id": "61af8254588c38001612cdf8",
+		"estreno": false,
+		"artistas": ["616ac0d22d5e6800167ed118", "61af822b588c38001612cdf7"],
+		"nombre": "QUIERO SER ESTRELLA",
+		"url_youtube": "https://youtu.be/AMQrb0V5Qpg",
+		"id_youtube": "AMQrb0V5Qpg",
+		"url_spotify": "https://open.spotify.com/album/4VdKDl01zPgUBwuX2nzMHd?si=a9ffcf2bc4b248a5"
+	},
+	"61af83c5588c38001612cdfa": {
+		"id": "61af83c5588c38001612cdfa",
+		"estreno": false,
+		"artistas": ["61af839d588c38001612cdf9"],
+		"nombre": "Siento si",
+		"url_youtube": "https://youtu.be/_GzvKBJkKS8",
+		"url_spotify": "https://open.spotify.com/album/5WL8N5Ilq6evDtO3HCO4Tm?si=VyxqUf-ZR5Csw02XP2efeQ",
+		"id_youtube": "_GzvKBJkKS8"
+	},
+	"61af84d4588c38001612cdfc": {
+		"id": "61af84d4588c38001612cdfc",
+		"estreno": false,
+		"artistas": ["61af84a2588c38001612cdfb"],
+		"nombre": "spacio",
+		"url_youtube": "https://youtu.be/JzDryeN8rIE",
+		"id_youtube": "JzDryeN8rIE",
+		"url_spotify": "https://open.spotify.com/album/6qYpFighWAWzCU0LIpMoUW?si=EOrtqKivTuqH79hXSuBP8Q"
+	},
+	"61af858d588c38001612cdfe": {
+		"id": "61af858d588c38001612cdfe",
+		"estreno": false,
+		"artistas": ["61af8569588c38001612cdfd"],
+		"nombre": "+ suave",
+		"url_youtube": "https://youtu.be/UAaFixMyoo0",
+		"id_youtube": "UAaFixMyoo0",
+		"url_spotify": "https://open.spotify.com/album/4yyoIQM88Ze4wfoXWwK71P?si=VA9NRBU6T_m4OESt1QA8yQ"
+	},
+	"61af8665588c38001612ce00": {
+		"id": "61af8665588c38001612ce00",
+		"estreno": false,
+		"artistas": ["61af863b588c38001612cdff"],
+		"nombre": "SUSTANCIA",
+		"url_youtube": "https://youtu.be/trTSA8ulsIk",
+		"id_youtube": "trTSA8ulsIk",
+		"url_spotify": "https://open.spotify.com/album/1tjQ3HSaJgiKF3ryvOAdO8?si=xzZ1dhFoSV-OdUOgM7gY9w"
+	},
+	"61af8b58588c38001612ce0b": {
+		"id": "61af8b58588c38001612ce0b",
+		"estreno": false,
+		"artistas": ["61af8b33588c38001612ce0a"],
+		"nombre": "Verte Ganar",
+		"url_youtube": "https://youtu.be/QL6GL3xjxBs",
+		"id_youtube": "QL6GL3xjxBs",
+		"url_spotify": "https://open.spotify.com/album/3CLs7z522JeLtGYr5pJGcM?si=S3ZueqoTQSGhqb0hb4KSXQ"
+	},
+	"61af8c4b588c38001612ce0d": {
+		"id": "61af8c4b588c38001612ce0d",
+		"estreno": false,
+		"artistas": ["61af8c16588c38001612ce0c"],
+		"nombre": "Voy tan deprisa",
+		"url_youtube": "https://youtu.be/F4RFxqOSaQw",
+		"id_youtube": "F4RFxqOSaQw",
+		"url_spotify": "https://open.spotify.com/album/5ZynKfbGTycJLKcS5xijEU?si=4iyoBniCSRWBVW_gUXvr7g"
+	},
+	"61dab887b2013f0016a5e415": {
+		"id": "61dab887b2013f0016a5e415",
+		"estreno": false,
+		"artistas": ["61dab87bb2013f0016a5e414", "61af3b05588c38001612cda4"],
+		"nombre": "BOING!",
+		"url_spotify": "https://open.spotify.com/album/6MyZ4Lj0H83wQB2449oTFK?si=gmdshIklRbuTOO5249rmCA",
+		"url_youtube": "https://youtu.be/q2rKzZC-R7c",
+		"id_youtube": "q2rKzZC-R7c"
+	},
+	"61dabbb1b2013f0016a5e418": {
+		"id": "61dabbb1b2013f0016a5e418",
+		"estreno": false,
+		"artistas": ["61af8790588c38001612ce02", "61dabb4fb2013f0016a5e416", "61dabb93b2013f0016a5e417"],
+		"nombre": "Soleá",
+		"url_youtube": "https://youtu.be/OnsjcW2rcBg",
+		"id_youtube": "OnsjcW2rcBg",
+		"url_spotify": "https://open.spotify.com/track/2dB4Dderp2UfjLCpjRQvSW?si=240b3c7a754a43a8"
+	},
+	"61dabd47b2013f0016a5e41a": {
+		"id": "61dabd47b2013f0016a5e41a",
+		"estreno": false,
+		"artistas": ["61dabd26b2013f0016a5e419"],
+		"nombre": "Apagón",
+		"url_youtube": "https://youtu.be/z3UsE5hDBPY",
+		"id_youtube": "z3UsE5hDBPY",
+		"url_spotify": "https://open.spotify.com/album/604pDX728x05zycmKqpc8f?si=aWMljk_ITxStOeJ462QGqA"
+	},
+	"61dddcd763d2c20016731f38": {
+		"id": "61dddcd763d2c20016731f38",
+		"estreno": false,
+		"artistas": ["61dddccb63d2c20016731f37"],
+		"url_youtube": "https://youtu.be/HIdYubDqQrM",
+		"id_youtube": "HIdYubDqQrM",
+		"url_spotify": "https://open.spotify.com/album/0p2X92O2ad8AgSCASErYu1?si=vz8mIg_gS5K5eBsMHb95Wg",
+		"nombre": "Per què les coses no són més senzilles?"
+	},
+	"61ebf2f9adfa4d00163323ad": {
+		"id": "61ebf2f9adfa4d00163323ad",
+		"estreno": false,
+		"artistas": ["616aba5e2d5e6800167ed10f", "616abab92d5e6800167ed110"],
+		"nombre": "cómo quieres",
+		"url_youtube": "https://youtu.be/ndEEEwhSaB8",
+		"id_youtube": "ndEEEwhSaB8",
+		"url_spotify": "https://open.spotify.com/track/1sgoN017OyfKDsvzMZPz7w?si=373796abb78a4013"
+	},
+	"61fbf7cd17e02600160e3dfd": {
+		"id": "61fbf7cd17e02600160e3dfd",
+		"estreno": false,
+		"artistas": ["61fbf79a17e02600160e3dfc"],
+		"nombre": "Blanca es la reina del pop",
+		"url_youtube": "https://youtu.be/8Td0smxmqwg",
+		"id_youtube": "8Td0smxmqwg",
+		"url_spotify": "https://open.spotify.com/track/6J8mFkqJfnUyQ7X4oLVwUe?si=dc94b9788e05445f"
+	},
+	"61fbf89517e02600160e3dff": {
+		"id": "61fbf89517e02600160e3dff",
+		"estreno": false,
+		"artistas": ["61fbf83e17e02600160e3dfe"],
+		"url_youtube": "https://youtu.be/ZJj2doUQgs4",
+		"id_youtube": "ZJj2doUQgs4",
+		"nombre": "Militar Cobarde",
+		"url_spotify": "https://open.spotify.com/album/1h83oW79WRd43Zd43A7eEL?si=QKKvaoNeQu6ik5Behz1i4w"
+	},
+	"61fbf94b17e02600160e3e01": {
+		"id": "61fbf94b17e02600160e3e01",
+		"estreno": false,
+		"artistas": ["61fbf91e17e02600160e3e00"],
+		"url_youtube": "https://youtu.be/uV9-IKiJ3Vs",
+		"id_youtube": "uV9-IKiJ3Vs",
+		"nombre": "NO CHILL",
+		"url_spotify": "https://open.spotify.com/album/2RMtNdz8YZv5TgzxQoPVvs?si=OS6VH9_-RJ6-Djfc3sihCQ"
+	},
+	"61fbf9be17e02600160e3e02": {
+		"id": "61fbf9be17e02600160e3e02",
+		"estreno": false,
+		"artistas": ["61af8b33588c38001612ce0a"],
+		"nombre": "Al Mirar",
+		"url_youtube": "https://youtu.be/HR8w8VSdDRM",
+		"id_youtube": "HR8w8VSdDRM",
+		"url_spotify": "https://open.spotify.com/album/6Lm8GFm1T80RBkCiFrFDc8?si=vYQaJPk-SpaaYR1b9ktfQg"
+	},
+	"61fbfa4217e02600160e3e03": {
+		"id": "61fbfa4217e02600160e3e03",
+		"estreno": false,
+		"artistas": ["61af7f2c588c38001612cdef"],
+		"nombre": "clones de ti",
+		"url_youtube": "https://youtu.be/atnJ91ckhbw",
+		"id_youtube": "atnJ91ckhbw",
+		"url_spotify": "https://open.spotify.com/album/4PbFj92HUHOw4LjgT8rFYC?si=xuERESj9SK2_k28huk_IZw"
+	},
+	"61fbfb2717e02600160e3e04": {
+		"id": "61fbfb2717e02600160e3e04",
+		"estreno": false,
+		"artistas": ["61af3a2a588c38001612cda2"],
+		"nombre": "todo sobra menos tú",
+		"url_youtube": "https://youtu.be/ETmkjkRujiA",
+		"id_youtube": "ETmkjkRujiA",
+		"url_spotify": "https://open.spotify.com/album/6s0ANdQLcJOP6ztt4CIaLA?si=7P0djhxbRc26MrB7MYZL2g"
+	},
+	"621d3d52dc57030016b3c2d5": {
+		"id": "621d3d52dc57030016b3c2d5",
+		"estreno": true,
+		"artistas": ["621d3abedc57030016b3c2cd"],
+		"nombre": "Quiero",
+		"url_spotify": "https://open.spotify.com/track/6mfPsNRFm60Vv0X8XHUd0Y?si=26e4b30be1dd422c",
+		"url_youtube": "https://youtu.be/hCtRNoknGDo",
+		"id_youtube": "hCtRNoknGDo"
+	},
+	"621d3d98dc57030016b3c2d6": {
+		"id": "621d3d98dc57030016b3c2d6",
+		"estreno": true,
+		"artistas": ["621d3b18dc57030016b3c2ce"],
+		"nombre": "Nada en Mi Vida Es Bonito",
+		"url_spotify": "https://open.spotify.com/track/7g7P02s0ehvo06J70TGZ9V?si=9d132680572945f8",
+		"url_youtube": "https://youtu.be/n9XHUv65dTU",
+		"id_youtube": "n9XHUv65dTU"
+	},
+	"621d3ddcdc57030016b3c2d7": {
+		"id": "621d3ddcdc57030016b3c2d7",
+		"estreno": true,
+		"artistas": ["621d3b73dc57030016b3c2cf", "621d3bcfdc57030016b3c2d0"],
+		"nombre": "Matrioshka",
+		"url_spotify": "https://open.spotify.com/track/6PJVOOngOgeekRLyJOCkvt?si=d2e95057930143c7",
+		"url_youtube": "https://youtu.be/S3x3JP00ZoI",
+		"id_youtube": "S3x3JP00ZoI"
+	},
+	"621d3e15dc57030016b3c2d8": {
+		"id": "621d3e15dc57030016b3c2d8",
+		"estreno": true,
+		"artistas": ["621d3c46dc57030016b3c2d1", "621d3c7adc57030016b3c2d2"],
+		"nombre": "Handia",
+		"url_youtube": "https://youtu.be/Gcf77ig-f9A",
+		"id_youtube": "Gcf77ig-f9A",
+		"url_spotify": "https://open.spotify.com/album/0lIdgPAArhbDjYSTEuTfNU?si=09BS0WM1SfaAGbXJpMkHKA"
+	},
+	"621d3e4adc57030016b3c2d9": {
+		"id": "621d3e4adc57030016b3c2d9",
+		"estreno": true,
+		"artistas": ["621d3cbcdc57030016b3c2d3", "621d3cfedc57030016b3c2d4"],
+		"url_youtube": "https://youtu.be/TZTHiKYlnsI",
+		"id_youtube": "TZTHiKYlnsI",
+		"nombre": "Ardi Latxen Herrian",
+		"url_spotify": "https://open.spotify.com/track/2cFnJhSo7buQMwr42VLEjK?si=7068b3e18ef149ad"
+	}
+}

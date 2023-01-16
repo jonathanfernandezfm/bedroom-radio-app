@@ -2,8 +2,9 @@ import { Artista } from '@models/Artista';
 import { Cancion } from '@models/Cancion';
 import { Dispatch, SetStateAction } from 'react';
 import { AiFillFire } from 'react-icons/ai';
-import { MdOutlineFiberNew } from "react-icons/md";
+import { MdOutlineFiberNew } from 'react-icons/md';
 import Typist from 'react-typist';
+import { getArtista } from 'services/db_service';
 
 interface SongInfoProps {
 	song: Cancion;
@@ -20,13 +21,11 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 			}`}
 		>
 			{song.estreno && (
-				<span className="flex items-center gap-1 -mb-2 font-bold text-blue-400">
-					[[ NOVEDAD ]]
-				</span>
+				<span className="flex items-center gap-1 -mb-2 font-bold text-blue-400">[[ NOVEDAD ]]</span>
 			)}
-			<h1 className="text-5xl tracking-tighter text-white sm:text-9xl lowercase font-anton">
+			<h1 className="text-5xl tracking-tighter text-white lowercase sm:text-9xl font-anton">
 				<Typist
-					key={song._id}
+					key={song.id}
 					cursor={{
 						show: true,
 						blink: true,
@@ -42,17 +41,18 @@ const SongInfo = ({ song, showInterface, toggleShowArtistInfo, setSelectedArtist
 			<div className="flex">
 				<div className="text-2xl tracking-tight text-white uppercase sm:text-3xl font-michroma">
 					{song.artistas.map((art, index) => {
+						const artista = getArtista(art);
 						return (
 							<div key={index}>
 								<h2
 									className="hover:cursor-pointer menu-link blue"
-									key={art._id}
+									key={art}
 									onClick={() => {
 										toggleShowArtistInfo(true);
-										setSelectedArtist(art);
+										setSelectedArtist(artista);
 									}}
 								>
-									{art.nombre}
+									{artista.nombre}
 								</h2>
 								&emsp;{index !== song.artistas.length - 1 && ' & '}
 							</div>

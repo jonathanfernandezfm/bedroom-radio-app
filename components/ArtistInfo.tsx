@@ -2,6 +2,7 @@ import React, { Dispatch, SetStateAction } from 'react';
 import Image from 'next/image';
 import { Artista } from '@models/Artista';
 import { Cancion } from '@models/Cancion';
+import { getArtista } from 'services/db_service';
 
 interface ArtistInfo {
 	song: Cancion;
@@ -11,9 +12,9 @@ interface ArtistInfo {
 
 const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 	return (
-		<div className="w-full h-full py-16 pt-24 bg-black flex flex-col justify-center items-center gap-4">
+		<div className="flex flex-col items-center justify-center w-full h-full gap-4 py-16 pt-24 bg-black">
 			<div className="md:px-28">
-				<h3 className="flex justify-center w-full mb-5 text-4xl text-center md:px-0 px-14 md:w-56 font-michroma capitalize">
+				<h3 className="flex justify-center w-full mb-5 text-4xl text-center capitalize md:px-0 px-14 md:w-56 font-michroma">
 					{artist?.nombre}
 				</h3>
 			</div>
@@ -90,19 +91,21 @@ const ArtistInfo = ({ song, artist, setSelectedArtist }: ArtistInfo) => {
 				</div>
 			</div>
 			<div className="absolute flex justify-center w-full bottom-10">
-				{song.artistas.map((art) => (
-					<button
-						className={`p-4 text-blue-400 uppercase font-michroma ${
-							artist?.nombre === art.nombre ? 'underline' : ''
-						}`}
-						key={art.id}
-						onClick={() => {
-							setSelectedArtist(art);
-						}}
-					>
-						{art.nombre}
-					</button>
-				))}
+				{song.artistas
+					.map((art) => getArtista(art))
+					.map((art) => (
+						<button
+							className={`p-4 text-blue-400 uppercase font-michroma ${
+								artist?.nombre === art.nombre ? 'underline' : ''
+							}`}
+							key={art.id}
+							onClick={() => {
+								setSelectedArtist(art);
+							}}
+						>
+							{art.nombre}
+						</button>
+					))}
 			</div>
 		</div>
 	);

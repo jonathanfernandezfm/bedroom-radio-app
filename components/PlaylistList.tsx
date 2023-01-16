@@ -15,7 +15,7 @@ const PlaylistList = ({ playlists, selectedPlaylist, selectPlaylist }: PlaylistL
 			<div className="flex flex-col gap-10 px-10">
 				{playlists.map((p, index) => (
 					<div
-						key={p._id}
+						key={p.id}
 						className={`relative px-4 bg-gray-600 bg-center bg-cover cursor-pointer py-14 md:w-80 w-full ${
 							selectedPlaylist === index ? 'ring-2 ring-white ring-offset-4 ring-offset-black' : ''
 						}`}
